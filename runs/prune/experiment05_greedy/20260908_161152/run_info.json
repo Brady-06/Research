@@ -1,0 +1,1562 @@
+{
+  "started_at": "2026-09-08T16:11:52.169483+08:00",
+  "status": "complete",
+  "post_run_verification": {
+    "greedy_best_changed_tensors_vs_raw": 0,
+    "greedy_last_changed_tensors_vs_raw": 90,
+    "greedy_best_and_last_all_finite": true,
+    "greedy_checkpoint_shapes_preserved": true,
+    "train_images": 102,
+    "val_images": 26,
+    "train_val_filename_overlap": 0,
+    "candidate_evaluations": 72,
+    "accepted_steps": 8
+  },
+  "target_compute_reduction": 0.04066636970350568,
+  "configuration": {
+    "device": "0",
+    "max_steps": 20
+  },
+  "sources": {
+    "runs\\train\\experiment02_coco128\\weights\\best.pt": "6f16d2f6fbeb613dced8c4f20e1c3948dc104985ab0a53e1e9e1c74804f008ae",
+    "configs\\coco128_split.yaml": "86b2471cd5bd126688349c865b3b57ea92bde429ce1d525eb55efe7aa531f929",
+    "reports\\experiment03_sensitivity.csv": "975efa843d4765b49826fd56adf000c010482e4af00fbf3cedc272be089df8fa",
+    "runs\\prune\\experiment04_independent\\strong\\pruned_raw.pt": "e1bf62f8ba9e6167aee8ff815abff5d74cc80f5860cf7318f2bd39c7d9a35f8f",
+    "scripts\\prune_greedy.py": "d51010f848242fb91ecc0e4f105520ec635857f204add35fe52d15985d3217d8",
+    "scripts\\greedy_evaluation.py": "d935dcc51b5776075790a3bbb0fd354a150a793f419f7577ef434c2ccc86bbb5"
+  },
+  "environment": {
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.142",
+    "torch-pruning": "1.6.1"
+  },
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti",
+  "steps": [
+    {
+      "step": 1,
+      "layer": "model.8.m.0.cv2.conv",
+      "status": "ok",
+      "reason": "",
+      "before_channels": 64,
+      "after_channels": 56,
+      "indices": [
+        10,
+        49,
+        21,
+        31,
+        42,
+        58,
+        28,
+        47
+      ],
+      "dependencies": [
+        {
+          "layer": "model.8.m.0.cv2.conv",
+          "direction": "out",
+          "indices": [
+            10,
+            49,
+            21,
+            31,
+            42,
+            58,
+            28,
+            47
+          ]
+        },
+        {
+          "layer": "model.8.m.0.cv3.conv",
+          "direction": "in",
+          "indices": [
+            74,
+            113,
+            85,
+            95,
+            106,
+            122,
+            92,
+            111
+          ]
+        }
+      ],
+      "changed_tensors": {
+        "model.8.m.0.cv2.conv.weight": {
+          "before": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "after": [
+            56,
+            128,
+            1,
+            1
+          ]
+        },
+        "model.8.m.0.cv2.bn.weight": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.8.m.0.cv2.bn.bias": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.8.m.0.cv2.bn.running_mean": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.8.m.0.cv2.bn.running_var": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.8.m.0.cv3.conv.weight": {
+          "before": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "after": [
+            128,
+            120,
+            1,
+            1
+          ]
+        }
+      },
+      "parameters": 2622016,
+      "gmacs": 3.2750016,
+      "map50": 0.7738201010812323,
+      "map50_95": 0.6257715900584485,
+      "validation_inference_ms": 2.6281538526885786,
+      "step_map_drop": -0.0025648323595313105,
+      "step_compute_saved": 0.00025202794579647054,
+      "total_compute_saved": 0.0002520279457964847,
+      "score": -10.176777624504327,
+      "parent_state_sha256": "ee8a82ea7739b1909d66e3472a1e937f0e6e30d3918abbd82a2557b5df37d1ff"
+    },
+    {
+      "step": 2,
+      "layer": "model.17.conv",
+      "status": "ok",
+      "reason": "",
+      "before_channels": 64,
+      "after_channels": 56,
+      "indices": [
+        32,
+        55,
+        37,
+        6,
+        31,
+        20,
+        57,
+        41
+      ],
+      "dependencies": [
+        {
+          "layer": "model.17.conv",
+          "direction": "out",
+          "indices": [
+            32,
+            55,
+            37,
+            6,
+            31,
+            20,
+            57,
+            41
+          ]
+        },
+        {
+          "layer": "model.19.cv1.conv",
+          "direction": "in",
+          "indices": [
+            32,
+            55,
+            37,
+            6,
+            31,
+            20,
+            57,
+            41
+          ]
+        }
+      ],
+      "changed_tensors": {
+        "model.17.conv.weight": {
+          "before": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "after": [
+            56,
+            64,
+            3,
+            3
+          ]
+        },
+        "model.17.bn.weight": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.17.bn.bias": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.17.bn.running_mean": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.17.bn.running_var": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.19.cv1.conv.weight": {
+          "before": [
+            128,
+            192,
+            1,
+            1
+          ],
+          "after": [
+            128,
+            184,
+            1,
+            1
+          ]
+        }
+      },
+      "parameters": 2616368,
+      "gmacs": 3.2659648,
+      "map50": 0.7854618352814315,
+      "map50_95": 0.6339651805003936,
+      "validation_inference_ms": 2.1428307607913246,
+      "step_map_drop": -0.00819359044194512,
+      "step_compute_saved": 0.0027586314687172955,
+      "total_compute_saved": 0.0030106594145137278,
+      "score": -2.9701649295529005,
+      "parent_state_sha256": "d070c9edaa0d373acb958c1da9578724e4db896db62d3990dfaa3abc98015a13"
+    },
+    {
+      "step": 3,
+      "layer": "model.22.m.0.cv2.conv",
+      "status": "ok",
+      "reason": "",
+      "before_channels": 64,
+      "after_channels": 56,
+      "indices": [
+        10,
+        55,
+        63,
+        3,
+        35,
+        28,
+        14,
+        6
+      ],
+      "dependencies": [
+        {
+          "layer": "model.22.m.0.cv2.conv",
+          "direction": "out",
+          "indices": [
+            10,
+            55,
+            63,
+            3,
+            35,
+            28,
+            14,
+            6
+          ]
+        },
+        {
+          "layer": "model.22.m.0.cv3.conv",
+          "direction": "in",
+          "indices": [
+            74,
+            119,
+            127,
+            67,
+            99,
+            92,
+            78,
+            70
+          ]
+        }
+      ],
+      "changed_tensors": {
+        "model.22.m.0.cv2.conv.weight": {
+          "before": [
+            64,
+            128,
+            1,
+            1
+          ],
+          "after": [
+            56,
+            128,
+            1,
+            1
+          ]
+        },
+        "model.22.m.0.cv2.bn.weight": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.22.m.0.cv2.bn.bias": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.22.m.0.cv2.bn.running_mean": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.22.m.0.cv2.bn.running_var": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.22.m.0.cv3.conv.weight": {
+          "before": [
+            128,
+            128,
+            1,
+            1
+          ],
+          "after": [
+            128,
+            120,
+            1,
+            1
+          ]
+        }
+      },
+      "parameters": 2614304,
+      "gmacs": 3.2651392,
+      "map50": 0.7855799754815272,
+      "map50_95": 0.633719838372424,
+      "validation_inference_ms": 2.56772308001438,
+      "step_map_drop": 0.00024534212796967214,
+      "step_compute_saved": 0.000252027945796335,
+      "total_compute_saved": 0.0032626873603101014,
+      "score": 0.973471918736878,
+      "parent_state_sha256": "e1a4fa249e5bdb7c70598c85a60e552bebbbdb5244013a9d6300c1e4431027dd"
+    },
+    {
+      "step": 4,
+      "layer": "model.22.m.0.cv2.conv",
+      "status": "ok",
+      "reason": "",
+      "before_channels": 56,
+      "after_channels": 48,
+      "indices": [
+        34,
+        8,
+        55,
+        23,
+        43,
+        50,
+        18,
+        12
+      ],
+      "dependencies": [
+        {
+          "layer": "model.22.m.0.cv2.conv",
+          "direction": "out",
+          "indices": [
+            34,
+            8,
+            55,
+            23,
+            43,
+            50,
+            18,
+            12
+          ]
+        },
+        {
+          "layer": "model.22.m.0.cv3.conv",
+          "direction": "in",
+          "indices": [
+            98,
+            72,
+            119,
+            87,
+            107,
+            114,
+            82,
+            76
+          ]
+        }
+      ],
+      "changed_tensors": {
+        "model.22.m.0.cv2.conv.weight": {
+          "before": [
+            56,
+            128,
+            1,
+            1
+          ],
+          "after": [
+            48,
+            128,
+            1,
+            1
+          ]
+        },
+        "model.22.m.0.cv2.bn.weight": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.22.m.0.cv2.bn.bias": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.22.m.0.cv2.bn.running_mean": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.22.m.0.cv2.bn.running_var": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.22.m.0.cv3.conv.weight": {
+          "before": [
+            128,
+            120,
+            1,
+            1
+          ],
+          "after": [
+            128,
+            112,
+            1,
+            1
+          ]
+        }
+      },
+      "parameters": 2612240,
+      "gmacs": 3.2643136,
+      "map50": 0.785484129927122,
+      "map50_95": 0.6334392320489896,
+      "validation_inference_ms": 2.6745653908269906,
+      "step_map_drop": 0.00028060632343440695,
+      "step_compute_saved": 0.00025202794579647054,
+      "total_compute_saved": 0.003514715306106586,
+      "score": 1.113393685559836,
+      "parent_state_sha256": "a07c10126f13f733ea34e988bf64a38b151e981c9a50dbaa64f726d794511423"
+    },
+    {
+      "step": 5,
+      "layer": "model.22.m.0.cv2.conv",
+      "status": "ok",
+      "reason": "",
+      "before_channels": 48,
+      "after_channels": 40,
+      "indices": [
+        31,
+        4,
+        22,
+        24,
+        6,
+        25,
+        45,
+        39
+      ],
+      "dependencies": [
+        {
+          "layer": "model.22.m.0.cv2.conv",
+          "direction": "out",
+          "indices": [
+            31,
+            4,
+            22,
+            24,
+            6,
+            25,
+            45,
+            39
+          ]
+        },
+        {
+          "layer": "model.22.m.0.cv3.conv",
+          "direction": "in",
+          "indices": [
+            95,
+            68,
+            86,
+            88,
+            70,
+            89,
+            109,
+            103
+          ]
+        }
+      ],
+      "changed_tensors": {
+        "model.22.m.0.cv2.conv.weight": {
+          "before": [
+            48,
+            128,
+            1,
+            1
+          ],
+          "after": [
+            40,
+            128,
+            1,
+            1
+          ]
+        },
+        "model.22.m.0.cv2.bn.weight": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.22.m.0.cv2.bn.bias": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.22.m.0.cv2.bn.running_mean": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.22.m.0.cv2.bn.running_var": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.22.m.0.cv3.conv.weight": {
+          "before": [
+            128,
+            112,
+            1,
+            1
+          ],
+          "after": [
+            128,
+            104,
+            1,
+            1
+          ]
+        }
+      },
+      "parameters": 2610176,
+      "gmacs": 3.263488,
+      "map50": 0.7852990215660427,
+      "map50_95": 0.6330976572706389,
+      "validation_inference_ms": 2.694776926476222,
+      "step_map_drop": 0.00034157477835061734,
+      "step_compute_saved": 0.000252027945796335,
+      "total_compute_saved": 0.0037667432519029598,
+      "score": 1.3553051716996716,
+      "parent_state_sha256": "ff9eb8331eae675a1fad648caf8391a93e2fbbaaeb4b66127ddf3d84ea495690"
+    },
+    {
+      "step": 6,
+      "layer": "model.16.cv2.conv",
+      "status": "ok",
+      "reason": "",
+      "before_channels": 64,
+      "after_channels": 56,
+      "indices": [
+        12,
+        50,
+        8,
+        7,
+        29,
+        1,
+        25,
+        22
+      ],
+      "dependencies": [
+        {
+          "layer": "model.16.cv2.conv",
+          "direction": "out",
+          "indices": [
+            12,
+            50,
+            8,
+            7,
+            29,
+            1,
+            25,
+            22
+          ]
+        },
+        {
+          "layer": "model.17.conv",
+          "direction": "in",
+          "indices": [
+            12,
+            50,
+            8,
+            7,
+            29,
+            1,
+            25,
+            22
+          ]
+        },
+        {
+          "layer": "model.23.cv3.0.0.0.conv",
+          "direction": "out",
+          "indices": [
+            12,
+            50,
+            8,
+            7,
+            29,
+            1,
+            25,
+            22
+          ]
+        },
+        {
+          "layer": "model.23.cv2.0.0.conv",
+          "direction": "in",
+          "indices": [
+            12,
+            50,
+            8,
+            7,
+            29,
+            1,
+            25,
+            22
+          ]
+        },
+        {
+          "layer": "model.23.cv3.0.0.1.conv",
+          "direction": "in",
+          "indices": [
+            12,
+            50,
+            8,
+            7,
+            29,
+            1,
+            25,
+            22
+          ]
+        }
+      ],
+      "changed_tensors": {
+        "model.16.cv2.conv.weight": {
+          "before": [
+            64,
+            96,
+            1,
+            1
+          ],
+          "after": [
+            56,
+            96,
+            1,
+            1
+          ]
+        },
+        "model.16.cv2.bn.weight": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.16.cv2.bn.bias": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.16.cv2.bn.running_mean": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.16.cv2.bn.running_var": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.17.conv.weight": {
+          "before": [
+            56,
+            64,
+            3,
+            3
+          ],
+          "after": [
+            56,
+            56,
+            3,
+            3
+          ]
+        },
+        "model.23.cv2.0.0.conv.weight": {
+          "before": [
+            64,
+            64,
+            3,
+            3
+          ],
+          "after": [
+            64,
+            56,
+            3,
+            3
+          ]
+        },
+        "model.23.cv3.0.0.0.conv.weight": {
+          "before": [
+            64,
+            1,
+            3,
+            3
+          ],
+          "after": [
+            56,
+            1,
+            3,
+            3
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.weight": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.bias": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.running_mean": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.running_var": {
+          "before": [
+            64
+          ],
+          "after": [
+            56
+          ]
+        },
+        "model.23.cv3.0.0.1.conv.weight": {
+          "before": [
+            80,
+            64,
+            1,
+            1
+          ],
+          "after": [
+            80,
+            56,
+            1,
+            1
+          ]
+        }
+      },
+      "parameters": 2600024,
+      "gmacs": 3.2178688,
+      "map50": 0.7400158281947075,
+      "map50_95": 0.6104169218591773,
+      "validation_inference_ms": 2.591011544259695,
+      "step_map_drop": 0.02268073541146165,
+      "step_compute_saved": 0.01392600928400618,
+      "total_compute_saved": 0.017692752535909073,
+      "score": 1.6286600812129393,
+      "parent_state_sha256": "6a3b9bd15680276b0764463e719bfe0f3603b72fd4b80b95bfc93085d7440d7a"
+    },
+    {
+      "step": 7,
+      "layer": "model.16.cv2.conv",
+      "status": "ok",
+      "reason": "",
+      "before_channels": 56,
+      "after_channels": 48,
+      "indices": [
+        35,
+        40,
+        49,
+        12,
+        18,
+        46,
+        19,
+        31
+      ],
+      "dependencies": [
+        {
+          "layer": "model.16.cv2.conv",
+          "direction": "out",
+          "indices": [
+            35,
+            40,
+            49,
+            12,
+            18,
+            46,
+            19,
+            31
+          ]
+        },
+        {
+          "layer": "model.17.conv",
+          "direction": "in",
+          "indices": [
+            35,
+            40,
+            49,
+            12,
+            18,
+            46,
+            19,
+            31
+          ]
+        },
+        {
+          "layer": "model.23.cv3.0.0.0.conv",
+          "direction": "out",
+          "indices": [
+            35,
+            40,
+            49,
+            12,
+            18,
+            46,
+            19,
+            31
+          ]
+        },
+        {
+          "layer": "model.23.cv2.0.0.conv",
+          "direction": "in",
+          "indices": [
+            35,
+            40,
+            49,
+            12,
+            18,
+            46,
+            19,
+            31
+          ]
+        },
+        {
+          "layer": "model.23.cv3.0.0.1.conv",
+          "direction": "in",
+          "indices": [
+            35,
+            40,
+            49,
+            12,
+            18,
+            46,
+            19,
+            31
+          ]
+        }
+      ],
+      "changed_tensors": {
+        "model.16.cv2.conv.weight": {
+          "before": [
+            56,
+            96,
+            1,
+            1
+          ],
+          "after": [
+            48,
+            96,
+            1,
+            1
+          ]
+        },
+        "model.16.cv2.bn.weight": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.16.cv2.bn.bias": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.16.cv2.bn.running_mean": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.16.cv2.bn.running_var": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.17.conv.weight": {
+          "before": [
+            56,
+            56,
+            3,
+            3
+          ],
+          "after": [
+            56,
+            48,
+            3,
+            3
+          ]
+        },
+        "model.23.cv2.0.0.conv.weight": {
+          "before": [
+            64,
+            56,
+            3,
+            3
+          ],
+          "after": [
+            64,
+            48,
+            3,
+            3
+          ]
+        },
+        "model.23.cv3.0.0.0.conv.weight": {
+          "before": [
+            56,
+            1,
+            3,
+            3
+          ],
+          "after": [
+            48,
+            1,
+            3,
+            3
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.weight": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.bias": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.running_mean": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.running_var": {
+          "before": [
+            56
+          ],
+          "after": [
+            48
+          ]
+        },
+        "model.23.cv3.0.0.1.conv.weight": {
+          "before": [
+            80,
+            56,
+            1,
+            1
+          ],
+          "after": [
+            80,
+            48,
+            1,
+            1
+          ]
+        }
+      },
+      "parameters": 2589872,
+      "gmacs": 3.1722496,
+      "map50": 0.738512831806704,
+      "map50_95": 0.5979217555584484,
+      "validation_inference_ms": 2.7940769124632845,
+      "step_map_drop": 0.012495166300728888,
+      "step_compute_saved": 0.013926009284006315,
+      "total_compute_saved": 0.03161876181991541,
+      "score": 0.89725391143314,
+      "parent_state_sha256": "9fcb5befa359f50440fe52b892ad74b08401ff7d0afbdfac51746c92302760cd"
+    },
+    {
+      "step": 8,
+      "layer": "model.16.cv2.conv",
+      "status": "ok",
+      "reason": "",
+      "before_channels": 48,
+      "after_channels": 40,
+      "indices": [
+        42,
+        7,
+        19,
+        32,
+        24,
+        23,
+        9,
+        43
+      ],
+      "dependencies": [
+        {
+          "layer": "model.16.cv2.conv",
+          "direction": "out",
+          "indices": [
+            42,
+            7,
+            19,
+            32,
+            24,
+            23,
+            9,
+            43
+          ]
+        },
+        {
+          "layer": "model.17.conv",
+          "direction": "in",
+          "indices": [
+            42,
+            7,
+            19,
+            32,
+            24,
+            23,
+            9,
+            43
+          ]
+        },
+        {
+          "layer": "model.23.cv3.0.0.0.conv",
+          "direction": "out",
+          "indices": [
+            42,
+            7,
+            19,
+            32,
+            24,
+            23,
+            9,
+            43
+          ]
+        },
+        {
+          "layer": "model.23.cv2.0.0.conv",
+          "direction": "in",
+          "indices": [
+            42,
+            7,
+            19,
+            32,
+            24,
+            23,
+            9,
+            43
+          ]
+        },
+        {
+          "layer": "model.23.cv3.0.0.1.conv",
+          "direction": "in",
+          "indices": [
+            42,
+            7,
+            19,
+            32,
+            24,
+            23,
+            9,
+            43
+          ]
+        }
+      ],
+      "changed_tensors": {
+        "model.16.cv2.conv.weight": {
+          "before": [
+            48,
+            96,
+            1,
+            1
+          ],
+          "after": [
+            40,
+            96,
+            1,
+            1
+          ]
+        },
+        "model.16.cv2.bn.weight": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.16.cv2.bn.bias": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.16.cv2.bn.running_mean": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.16.cv2.bn.running_var": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.17.conv.weight": {
+          "before": [
+            56,
+            48,
+            3,
+            3
+          ],
+          "after": [
+            56,
+            40,
+            3,
+            3
+          ]
+        },
+        "model.23.cv2.0.0.conv.weight": {
+          "before": [
+            64,
+            48,
+            3,
+            3
+          ],
+          "after": [
+            64,
+            40,
+            3,
+            3
+          ]
+        },
+        "model.23.cv3.0.0.0.conv.weight": {
+          "before": [
+            48,
+            1,
+            3,
+            3
+          ],
+          "after": [
+            40,
+            1,
+            3,
+            3
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.weight": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.bias": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.running_mean": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.23.cv3.0.0.0.bn.running_var": {
+          "before": [
+            48
+          ],
+          "after": [
+            40
+          ]
+        },
+        "model.23.cv3.0.0.1.conv.weight": {
+          "before": [
+            80,
+            48,
+            1,
+            1
+          ],
+          "after": [
+            80,
+            40,
+            1,
+            1
+          ]
+        }
+      },
+      "parameters": 2579720,
+      "gmacs": 3.1266304,
+      "map50": 0.7156305546062125,
+      "map50_95": 0.5962410378297743,
+      "validation_inference_ms": 2.825630766053039,
+      "step_map_drop": 0.0016807177286740638,
+      "step_compute_saved": 0.01392600928400618,
+      "total_compute_saved": 0.04554477110392163,
+      "score": 0.12068911447620129,
+      "parent_state_sha256": "c14947ed99e7455411df13ddd601be638316fe153771930fc9c97c8f2d3de18c"
+    }
+  ],
+  "candidates": [
+    "model.8.m.0.m.0.cv2.conv",
+    "model.17.conv",
+    "model.5.conv",
+    "model.8.m.0.cv2.conv",
+    "model.8.m.0.m.1.cv1.conv",
+    "model.22.m.0.cv2.conv",
+    "model.8.m.0.m.0.cv1.conv",
+    "model.19.cv2.conv",
+    "model.16.cv2.conv"
+  ],
+  "baseline": {
+    "map50": 0.7760911174721754,
+    "map50_95": 0.6232067576989172,
+    "validation_inference_ms": 6.986292311921716,
+    "parameters": 2624080,
+    "gmacs": 3.2758272
+  },
+  "stop_reason": "target_reached",
+  "search_seconds": 89.22690050001256,
+  "search_peak_allocated_mb": 591.84896,
+  "raw": {
+    "map50": 0.7156305546062125,
+    "map50_95": 0.5962410378297743,
+    "validation_inference_ms": 2.552738457989807,
+    "parameters": 2579720,
+    "gmacs": 3.1266304,
+    "compute_reduction": 0.04554477110392163,
+    "parameter_reduction": 0.016904972409377717
+  },
+  "finetuning": [
+    {
+      "label": "unpruned_control",
+      "raw_map50_95": 0.6232067576989172,
+      "map50": 0.7760911174721754,
+      "map50_95": 0.6232067576989172,
+      "validation_inference_ms": 3.029830762758278,
+      "finetune_seconds": 65.86005999986082,
+      "peak_allocated_mb": 1315.881472,
+      "best_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\unpruned_control\\weights\\best.pt",
+      "parameters": 2624080,
+      "gmacs": 3.2758272,
+      "round_medians_ms": [
+        11.12886381149292,
+        10.008031845092773,
+        9.621488094329834,
+        9.797919750213623,
+        10.064864158630371
+      ],
+      "latency_median_ms": 10.008031845092773,
+      "latency_p90_ms": 13.903644561767578,
+      "sample_count": 250,
+      "batch": 1,
+      "imgsz": 640,
+      "precision": "float32",
+      "fused": true,
+      "scope": "network_forward_excluding_preprocess_and_nms",
+      "parameter_reduction": 0.0,
+      "compute_reduction": 0.0,
+      "model_mb": 5.539482
+    },
+    {
+      "label": "independent_strong",
+      "raw_map50_95": 0.5033008286168248,
+      "map50": 0.688148830453167,
+      "map50_95": 0.5182849962541948,
+      "validation_inference_ms": 3.1134192294512806,
+      "finetune_seconds": 35.46699370001443,
+      "peak_allocated_mb": 1294.502912,
+      "best_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\independent_strong\\weights\\best.pt",
+      "parameters": 2514744,
+      "gmacs": 3.1426112,
+      "round_medians_ms": [
+        10.681104183197021,
+        10.603439807891846,
+        10.589279651641846,
+        10.258543968200684,
+        10.807727813720703
+      ],
+      "latency_median_ms": 10.596015930175781,
+      "latency_p90_ms": 13.581803321838379,
+      "sample_count": 250,
+      "batch": 1,
+      "imgsz": 640,
+      "precision": "float32",
+      "fused": true,
+      "scope": "network_forward_excluding_preprocess_and_nms",
+      "parameter_reduction": 0.04166641260937165,
+      "compute_reduction": 0.04066636970350568,
+      "model_mb": 5.321434
+    },
+    {
+      "label": "greedy",
+      "raw_map50_95": 0.5962410378297743,
+      "map50": 0.7156305546062125,
+      "map50_95": 0.5962410378297743,
+      "validation_inference_ms": 2.7885000006510663,
+      "finetune_seconds": 30.604900900041685,
+      "peak_allocated_mb": 1291.305984,
+      "best_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\greedy\\weights\\best.pt",
+      "parameters": 2579720,
+      "gmacs": 3.1266304,
+      "round_medians_ms": [
+        9.678704261779785,
+        10.008543968200684,
+        11.142767906188965,
+        9.917776107788086,
+        9.750783920288086
+      ],
+      "latency_median_ms": 9.942527770996094,
+      "latency_p90_ms": 14.659071922302246,
+      "sample_count": 250,
+      "batch": 1,
+      "imgsz": 640,
+      "precision": "float32",
+      "fused": true,
+      "scope": "network_forward_excluding_preprocess_and_nms",
+      "parameter_reduction": 0.016904972409377717,
+      "compute_reduction": 0.04554477110392163,
+      "model_mb": 5.451162
+    }
+  ],
+  "finished_at": "2026-09-08T16:15:48.554304+08:00",
+  "elapsed_seconds": 236.38487279997207,
+  "comparisons": [
+    {
+      "label": "unpruned_control",
+      "raw_map50_95": 0.6232067576989172,
+      "map50": 0.7760911174721754,
+      "map50_95": 0.6232067576989172,
+      "validation_inference_ms": 3.029830762758278,
+      "finetune_seconds": 65.86005999986082,
+      "peak_allocated_mb": 1315.881472,
+      "best_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\unpruned_control\\weights\\best.pt",
+      "parameters": 2624080,
+      "gmacs": 3.2758272,
+      "round_medians_ms": [
+        11.12886381149292,
+        10.008031845092773,
+        9.621488094329834,
+        9.797919750213623,
+        10.064864158630371
+      ],
+      "latency_median_ms": 10.008031845092773,
+      "latency_p90_ms": 13.903644561767578,
+      "sample_count": 250,
+      "batch": 1,
+      "imgsz": 640,
+      "precision": "float32",
+      "fused": true,
+      "scope": "network_forward_excluding_preprocess_and_nms",
+      "parameter_reduction": 0.0,
+      "compute_reduction": 0.0,
+      "model_mb": 5.539482
+    },
+    {
+      "label": "independent_strong",
+      "raw_map50_95": 0.5033008286168248,
+      "map50": 0.688148830453167,
+      "map50_95": 0.5182849962541948,
+      "validation_inference_ms": 3.1134192294512806,
+      "finetune_seconds": 35.46699370001443,
+      "peak_allocated_mb": 1294.502912,
+      "best_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\independent_strong\\weights\\best.pt",
+      "parameters": 2514744,
+      "gmacs": 3.1426112,
+      "round_medians_ms": [
+        10.681104183197021,
+        10.603439807891846,
+        10.589279651641846,
+        10.258543968200684,
+        10.807727813720703
+      ],
+      "latency_median_ms": 10.596015930175781,
+      "latency_p90_ms": 13.581803321838379,
+      "sample_count": 250,
+      "batch": 1,
+      "imgsz": 640,
+      "precision": "float32",
+      "fused": true,
+      "scope": "network_forward_excluding_preprocess_and_nms",
+      "parameter_reduction": 0.04166641260937165,
+      "compute_reduction": 0.04066636970350568,
+      "model_mb": 5.321434
+    },
+    {
+      "label": "greedy",
+      "raw_map50_95": 0.5962410378297743,
+      "map50": 0.7156305546062125,
+      "map50_95": 0.5962410378297743,
+      "validation_inference_ms": 2.7885000006510663,
+      "finetune_seconds": 30.604900900041685,
+      "peak_allocated_mb": 1291.305984,
+      "best_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\greedy\\weights\\best.pt",
+      "parameters": 2579720,
+      "gmacs": 3.1266304,
+      "round_medians_ms": [
+        9.678704261779785,
+        10.008543968200684,
+        11.142767906188965,
+        9.917776107788086,
+        9.750783920288086
+      ],
+      "latency_median_ms": 9.942527770996094,
+      "latency_p90_ms": 14.659071922302246,
+      "sample_count": 250,
+      "batch": 1,
+      "imgsz": 640,
+      "precision": "float32",
+      "fused": true,
+      "scope": "network_forward_excluding_preprocess_and_nms",
+      "parameter_reduction": 0.016904972409377717,
+      "compute_reduction": 0.04554477110392163,
+      "model_mb": 5.451162
+    }
+  ]
+}

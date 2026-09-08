@@ -1,0 +1,1163 @@
+RUN_DIR C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,616,248 parameters, 0 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 570.5345.8 MB/s, size: 56.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 9.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% ━━━───────── 1/4 1.7it/s 0.2s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 3/4 4.2it/s 0.4s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 8.9it/s 0.4s
+                   all         26        139       0.69      0.682      0.776      0.623
+Speed: 0.4ms preprocess, 7.0ms inference, 0.0ms loss, 1.2ms postprocess per image
+Baseline mAP=0.623207, GMACs=3.275827; 9 candidates; target=4.0666%
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,595,744 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 242.685.6 MB/s, size: 42.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 9.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.7it/s 0.3s
+                   all         26        139      0.726      0.687      0.764      0.582
+Speed: 0.3ms preprocess, 2.5ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,610,608 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 300.4103.6 MB/s, size: 50.7 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.2it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.3it/s 0.2s
+                   all         26        139      0.767      0.634      0.788      0.635
+Speed: 0.3ms preprocess, 2.2ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,595,752 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 254.250.4 MB/s, size: 39.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.2it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.2it/s 0.2s
+                   all         26        139      0.621      0.714       0.78      0.599
+Speed: 0.3ms preprocess, 2.3ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,614,192 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 351.1156.3 MB/s, size: 61.6 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139      0.701      0.679      0.774      0.626
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,607,024 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 354.0138.1 MB/s, size: 58.9 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139      0.657      0.685       0.77      0.603
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,614,192 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 369.6156.0 MB/s, size: 68.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.2it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.0it/s 0.3s
+                   all         26        139      0.696      0.681      0.775      0.623
+Speed: 0.3ms preprocess, 2.5ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,607,024 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 414.6181.3 MB/s, size: 71.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 1.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139       0.61      0.729      0.767      0.616
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,584,072 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 365.8164.8 MB/s, size: 75.7 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.2it/s 0.3s
+                   all         26        139      0.626      0.709      0.776      0.612
+Speed: 0.4ms preprocess, 2.8ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,605,536 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 265.6128.0 MB/s, size: 50.1 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.663      0.677      0.719      0.598
+Speed: 0.4ms preprocess, 2.8ms inference, 0.0ms loss, 1.3ms postprocess per image
+ACCEPT step=1 model.8.m.0.cv2.conv 64->56; mAP=0.625772; GMAC saved=0.0252%
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,593,688 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 208.668.3 MB/s, size: 45.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.8it/s 0.3s
+                   all         26        139      0.735      0.684      0.764      0.577
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,608,552 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 304.498.9 MB/s, size: 50.7 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.2it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.3it/s 0.2s
+                   all         26        139      0.629        0.7      0.785      0.634
+Speed: 0.3ms preprocess, 2.1ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,593,696 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 271.9128.3 MB/s, size: 50.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.3it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.5it/s 0.2s
+                   all         26        139      0.597      0.714      0.755      0.593
+Speed: 0.3ms preprocess, 2.1ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,612,136 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 360.385.4 MB/s, size: 72.5 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.2it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.2it/s 0.2s
+                   all         26        139      0.683      0.678      0.766      0.614
+Speed: 0.4ms preprocess, 2.3ms inference, 0.0ms loss, 1.2ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,604,968 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 401.0214.3 MB/s, size: 75.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139      0.652      0.686      0.769      0.596
+Speed: 0.4ms preprocess, 2.5ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,612,136 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 317.292.2 MB/s, size: 52.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.2it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.8it/s 0.3s
+                   all         26        139      0.704      0.677      0.774      0.625
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,604,968 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 321.8138.9 MB/s, size: 63.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.6it/s 0.3s
+                   all         26        139      0.744       0.64      0.772      0.623
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,582,016 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 460.0190.0 MB/s, size: 80.9 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 14.8it/s 0.3s
+                   all         26        139      0.604      0.709      0.775      0.615
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,603,480 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 314.5191.3 MB/s, size: 56.9 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.5it/s 0.1s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 17.1it/s 0.2s
+                   all         26        139      0.683      0.676      0.714      0.599
+Speed: 0.3ms preprocess, 2.5ms inference, 0.0ms loss, 1.1ms postprocess per image
+ACCEPT step=2 model.17.conv 64->56; mAP=0.633965; GMAC saved=0.3011%
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,588,048 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 281.491.5 MB/s, size: 59.6 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.2it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.7it/s 0.3s
+                   all         26        139      0.682      0.667      0.753      0.562
+Speed: 0.4ms preprocess, 2.5ms inference, 0.0ms loss, 1.2ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,602,912 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 341.759.2 MB/s, size: 58.9 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 14.9it/s 0.3s
+                   all         26        139        0.6      0.709      0.771      0.606
+Speed: 0.4ms preprocess, 2.8ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,588,056 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 303.2108.5 MB/s, size: 51.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.612      0.708      0.763      0.583
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,606,496 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 358.9165.6 MB/s, size: 63.5 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.772      0.604      0.774      0.619
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,599,328 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 424.6171.6 MB/s, size: 96.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.3it/s 0.3s
+                   all         26        139      0.669      0.673      0.774      0.602
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,606,496 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 349.9174.5 MB/s, size: 70.7 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.8it/s 0.3s
+                   all         26        139      0.628        0.7      0.786      0.634
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,599,328 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 306.7147.7 MB/s, size: 50.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.2it/s 0.3s
+                   all         26        139      0.765      0.601      0.768      0.616
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,576,376 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 239.174.9 MB/s, size: 45.9 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.3it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.4it/s 0.2s
+                   all         26        139      0.813      0.596      0.771       0.61
+Speed: 0.3ms preprocess, 2.5ms inference, 0.0ms loss, 1.2ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,598,416 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 381.2135.9 MB/s, size: 76.5 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.3it/s 0.3s
+                   all         26        139      0.757      0.599       0.74       0.61
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.4ms postprocess per image
+ACCEPT step=3 model.22.m.0.cv2.conv 64->56; mAP=0.633720; GMAC saved=0.3263%
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,585,992 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 330.4101.9 MB/s, size: 63.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.3it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.2it/s 0.2s
+                   all         26        139      0.683      0.668      0.753      0.559
+Speed: 0.3ms preprocess, 2.5ms inference, 0.0ms loss, 1.2ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,600,856 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 386.6182.4 MB/s, size: 69.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.601      0.709      0.771      0.606
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,586,000 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 356.0112.7 MB/s, size: 58.1 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.613      0.707      0.762      0.585
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,604,440 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 313.483.3 MB/s, size: 49.6 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.3it/s 0.3s
+                   all         26        139      0.772      0.603      0.775      0.619
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,597,272 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 279.294.7 MB/s, size: 47.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139       0.67      0.673      0.777      0.605
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,604,440 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 354.3114.4 MB/s, size: 64.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 9.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139      0.629        0.7      0.785      0.633
+Speed: 0.3ms preprocess, 2.7ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,597,272 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 352.9140.2 MB/s, size: 59.9 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.772      0.608      0.771      0.618
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,574,320 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 376.0108.2 MB/s, size: 64.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.808      0.596      0.771      0.608
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,596,360 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 276.3139.8 MB/s, size: 52.2 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.7it/s 0.3s
+                   all         26        139      0.758      0.599       0.74       0.61
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+ACCEPT step=4 model.22.m.0.cv2.conv 56->48; mAP=0.633439; GMAC saved=0.3515%
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,583,936 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 260.5102.7 MB/s, size: 48.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.8it/s 0.3s
+                   all         26        139      0.685       0.68      0.759      0.567
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,598,800 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 343.3116.2 MB/s, size: 55.9 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.3it/s 0.3s
+                   all         26        139      0.603      0.709      0.771      0.606
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,583,944 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 420.0142.3 MB/s, size: 80.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.8it/s 0.3s
+                   all         26        139      0.616      0.705      0.762      0.581
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,602,384 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 363.9115.9 MB/s, size: 65.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.0it/s 0.3s
+                   all         26        139      0.603      0.701      0.775       0.62
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,595,216 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 222.340.7 MB/s, size: 33.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139      0.673      0.673      0.777      0.606
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,602,384 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 324.0120.8 MB/s, size: 68.5 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139       0.63        0.7      0.785      0.633
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,595,216 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 329.9214.8 MB/s, size: 58.5 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139      0.773      0.606      0.771      0.615
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.2ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,572,264 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 367.6175.3 MB/s, size: 74.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.8it/s 0.3s
+                   all         26        139      0.802      0.594      0.771      0.609
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,594,304 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 239.0114.2 MB/s, size: 52.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139       0.76      0.598       0.74      0.611
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.3ms postprocess per image
+ACCEPT step=5 model.22.m.0.cv2.conv 48->40; mAP=0.633098; GMAC saved=0.3767%
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,581,880 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 375.5148.8 MB/s, size: 67.1 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.0it/s 0.3s
+                   all         26        139      0.695      0.667      0.759      0.569
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.2ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,596,744 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 342.1165.9 MB/s, size: 66.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.3it/s 0.3s
+                   all         26        139      0.604      0.709      0.771      0.611
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,581,888 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 485.3115.8 MB/s, size: 88.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139      0.617      0.704      0.758      0.581
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,600,328 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 355.5146.2 MB/s, size: 60.6 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.2it/s 0.3s
+                   all         26        139      0.606      0.701      0.775      0.619
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,593,160 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 373.294.3 MB/s, size: 73.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 14.7it/s 0.3s
+                   all         26        139      0.675      0.672      0.777      0.606
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,600,328 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 418.6115.3 MB/s, size: 80.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.3it/s 0.3s
+                   all         26        139      0.631        0.7      0.785      0.632
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.2ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,593,160 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 329.5135.8 MB/s, size: 59.6 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.2it/s 0.3s
+                   all         26        139      0.769        0.6      0.769      0.616
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,570,208 parameters, 31,936 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 331.1135.1 MB/s, size: 59.2 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.0it/s 0.3s
+                   all         26        139       0.81      0.593      0.771      0.612
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,592,248 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 373.2156.1 MB/s, size: 73.5 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 9.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.672      0.652       0.74       0.61
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+ACCEPT step=6 model.16.cv2.conv 64->56; mAP=0.610417; GMAC saved=1.7693%
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,571,744 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 253.2151.3 MB/s, size: 47.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.3it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.3it/s 0.2s
+                   all         26        139      0.732      0.642      0.717      0.542
+Speed: 0.4ms preprocess, 2.5ms inference, 0.0ms loss, 1.1ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,587,184 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 337.5156.4 MB/s, size: 65.1 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.2it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.672      0.668      0.711       0.58
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,571,752 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 323.7105.1 MB/s, size: 58.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.2it/s 0.3s
+                   all         26        139      0.633      0.683      0.698      0.561
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,590,192 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 272.587.9 MB/s, size: 44.3 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.0it/s 0.3s
+                   all         26        139      0.623      0.708      0.727      0.593
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,583,024 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 224.790.1 MB/s, size: 39.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.1it/s 0.3s
+                   all         26        139      0.719       0.64       0.72      0.579
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,590,192 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 232.476.0 MB/s, size: 45.5 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.2it/s 0.3s
+                   all         26        139      0.672      0.652      0.738      0.609
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,583,024 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 289.5113.7 MB/s, size: 45.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.0it/s 0.3s
+                   all         26        139       0.73      0.607      0.726      0.589
+Speed: 0.4ms preprocess, 2.5ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,560,072 parameters, 31,936 gradients, 6.4 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 200.352.0 MB/s, size: 35.2 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 6.4Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139      0.684      0.638      0.719      0.584
+Speed: 0.3ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,582,112 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 268.567.2 MB/s, size: 44.2 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 14.7it/s 0.3s
+                   all         26        139      0.655      0.685      0.739      0.598
+Speed: 0.4ms preprocess, 2.8ms inference, 0.0ms loss, 1.3ms postprocess per image
+ACCEPT step=7 model.16.cv2.conv 56->48; mAP=0.597922; GMAC saved=3.1619%
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,561,608 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 372.4177.3 MB/s, size: 68.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.9it/s 0.3s
+                   all         26        139      0.649      0.652      0.704      0.538
+Speed: 0.4ms preprocess, 2.5ms inference, 0.0ms loss, 1.2ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,577,624 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 314.267.3 MB/s, size: 61.7 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.1it/s 0.3s
+                   all         26        139      0.693      0.652      0.726       0.59
+Speed: 0.4ms preprocess, 2.7ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,561,616 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 479.2107.2 MB/s, size: 78.9 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 9.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.3it/s 0.3s
+                   all         26        139      0.692      0.691      0.713      0.543
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,580,056 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 338.8191.6 MB/s, size: 57.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.5it/s 0.3s
+                   all         26        139      0.662      0.684      0.719      0.581
+Speed: 0.4ms preprocess, 2.5ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,572,888 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 326.7176.8 MB/s, size: 63.1 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.2it/s 0.3s
+                   all         26        139      0.699      0.634      0.716      0.566
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,580,056 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 264.091.1 MB/s, size: 44.6 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 16.0it/s 0.3s
+                   all         26        139      0.661      0.684      0.738      0.595
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.3ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,572,888 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 303.5181.1 MB/s, size: 56.8 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.4it/s 0.3s
+                   all         26        139      0.684      0.633      0.721       0.58
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,549,936 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 272.2160.5 MB/s, size: 58.5 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.2it/s 0.3s
+                   all         26        139      0.635       0.66      0.693       0.56
+Speed: 0.3ms preprocess, 2.5ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,571,976 parameters, 31,936 gradients, 6.2 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 214.770.1 MB/s, size: 36.4 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 9.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 14.7it/s 0.3s
+                   all         26        139      0.663      0.656      0.716      0.596
+Speed: 0.3ms preprocess, 2.8ms inference, 0.0ms loss, 1.5ms postprocess per image
+ACCEPT step=8 model.16.cv2.conv 48->40; mAP=0.596241; GMAC saved=4.5545%
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,571,976 parameters, 31,936 gradients, 6.2 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 320.688.8 MB/s, size: 58.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 14.9it/s 0.3s
+                   all         26        139      0.663      0.656      0.716      0.596
+Speed: 0.4ms preprocess, 2.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,507,040 parameters, 31,936 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 267.964.3 MB/s, size: 48.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 13.6Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 14.3it/s 0.3s
+                   all         26        139      0.693      0.603      0.695      0.503
+Speed: 0.5ms preprocess, 3.0ms inference, 0.0ms loss, 1.4ms postprocess per image
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+[34m[1mengine\trainer: [0magnostic_nms=False, amp=True, angle=1.0, augment=False, auto_augment=randaugment, batch=8, bgr=0.0, box=7.5, cache=False, cfg=None, channels_last=None, classes=None, close_mosaic=0, cls=0.5, cls_pw=0.0, cls_remap=True, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=C:\Users\22565\OneDrive\Desktop\YOLO\configs\coco128_split.yaml, degrees=0.0, deterministic=True, device=0, dfl=1.5, dgrad=0.5, dis=6.0, distill_model=None, dlam=1.0, dlog=1.0, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=10, erasing=0.4, exist_ok=False, fliplr=0.0, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=640, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.0001, lrf=0.1, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=C:\Users\22565\OneDrive\Desktop\YOLO\runs\train\experiment02_coco128\weights\best.pt, momentum=0.937, mosaic=0.0, multi_scale=0.0, name=unpruned_control, nbs=64, nms=None, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=10, perspective=0.0, plots=False, pose=12.0, pretrained=True, profile=False, project=C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune, quantize=None, rect=False, resume=False, retina_masks=False, rle=1.0, save=True, save_conf=False, save_crop=False, save_dir=C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\unpruned_control, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.0, seed=42, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=tracktrack.yaml, translate=0.0, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.0001, warmup_epochs=0.0, warmup_momentum=0.8, weight_decay=0.0001, workers=0, workspace=None
+WARNING setting 'requires_grad=True' for frozen layer 'model.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.2.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.3.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.3.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.3.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.4.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.5.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.5.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.5.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.cv3.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.cv3.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.cv3.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.1.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.1.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.1.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.1.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.1.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.6.m.0.m.1.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.7.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.7.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.7.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.cv3.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.cv3.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.cv3.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.1.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.1.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.1.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.1.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.1.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.8.m.0.m.1.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.9.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.9.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.9.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.9.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.9.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.9.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.attn.qkv.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.attn.qkv.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.attn.qkv.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.attn.proj.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.attn.proj.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.attn.proj.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.attn.pe.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.attn.pe.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.attn.pe.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.ffn.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.ffn.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.ffn.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.ffn.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.ffn.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.10.m.0.ffn.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.13.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.16.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.17.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.17.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.17.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.19.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.20.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.20.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.20.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.cv3.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.cv3.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.cv3.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.0.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.0.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.0.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.0.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.0.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.0.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.1.cv1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.1.cv1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.1.cv1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.1.cv2.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.1.cv2.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.22.m.0.m.1.cv2.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.0.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.0.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.0.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.0.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.0.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.0.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.0.2.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.0.2.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.1.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.1.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.1.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.1.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.1.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.1.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.1.2.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.1.2.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.2.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.2.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.2.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.2.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.2.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.2.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.2.2.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv2.2.2.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.0.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.0.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.0.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.0.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.0.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.0.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.1.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.1.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.1.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.1.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.1.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.1.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.2.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.0.2.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.0.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.0.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.0.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.0.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.0.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.0.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.1.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.1.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.1.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.1.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.1.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.1.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.2.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.1.2.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.0.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.0.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.0.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.0.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.0.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.0.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.1.0.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.1.0.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.1.0.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.1.1.conv.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.1.1.bn.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.1.1.bn.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.2.weight'. See ultralytics.engine.trainer for customization of frozen layers.
+WARNING setting 'requires_grad=True' for frozen layer 'model.23.cv3.2.2.bias'. See ultralytics.engine.trainer for customization of frozen layers.
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+[34m[1mAMP: [0mchecks passed 
+[34m[1mtrain: [0mFast image access  (ping: 0.00.0 ms, read: 227.430.2 MB/s, size: 56.5 KB)
+[K[34m[1mtrain: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\train.cache... 100 images, 2 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 102/102 42.8Mit/s 0.0s
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 226.681.0 MB/s, size: 53.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[34m[1moptimizer:[0m AdamW(lr=0.0001, momentum=0.937) with parameter groups 81 weight(decay=0.0), 88 weight(decay=0.0001), 87 bias(decay=0.0)
+Using 102 train, 26 val images for fraction=1.0 at imgsz=640
+Using 0 dataloader workers
+Logging results to [1mC:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\unpruned_control[0m
+Starting training for 10 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       1/10      1.29G      1.116      1.228      1.034         67        640: 0% ──────────── 0/13  10.0s[K       1/10      1.29G      1.129      1.262      1.085         52        640: 7% ╸─────────── 1/13 1.8it/s 10.2s<6.5s[K       1/10      1.29G       1.28      1.341      1.125         93        640: 15% ━╸────────── 2/13 3.6it/s 10.3s<3.1s[K       1/10      1.29G      1.254      1.238      1.112         65        640: 23% ━━╸───────── 3/13 4.8it/s 10.4s<2.1s[K       1/10      1.29G      1.175      1.193      1.098         23        640: 30% ━━━╸──────── 4/13 5.5it/s 10.6s<1.6s[K       1/10      1.29G      1.162      1.159        1.1         92        640: 38% ━━━━╸─────── 5/13 6.0it/s 10.7s<1.3s[K       1/10      1.29G      1.192      1.169      1.122         77        640: 46% ━━━━━╸────── 6/13 6.5it/s 10.8s<1.1s[K       1/10      1.29G      1.157      1.122      1.123         30        640: 53% ━━━━━━────── 7/13 6.0it/s 11.0s<1.0s[K       1/10      1.29G      1.125      1.077      1.113         49        640: 61% ━━━━━━━───── 8/13 6.5it/s 11.2s<0.8s[K       1/10      1.29G      1.106      1.061      1.126         40        640: 69% ━━━━━━━━──── 9/13 6.9it/s 11.3s<0.6s[K       1/10      1.29G      1.083      1.063      1.121         68        640: 76% ━━━━━━━━━─── 10/13 7.1it/s 11.4s<0.4s[K       1/10      1.29G      1.085      1.055       1.12         76        640: 84% ━━━━━━━━━━── 11/13 7.3it/s 11.6s<0.3s[K       1/10      1.29G      1.092      1.048      1.115         55        640: 92% ━━━━━━━━━━━─ 12/13 5.2it/s 21.5s<0.2s[K       1/10      1.29G      1.092      1.048      1.115         55        640: 100% ━━━━━━━━━━━━ 13/13 1.7s/it 21.5s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 14.4s/it 4.3s<14.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 4.3s/it 8.6s
+                   all         26        139      0.643      0.701      0.788      0.627
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       2/10      1.29G      1.149      1.079      1.055         63        640: 0% ──────────── 0/13  0.1s[K       2/10      1.29G      1.192      1.184      1.099         67        640: 7% ╸─────────── 1/13 2.4it/s 0.3s<5.0s[K       2/10      1.29G      1.144      1.128      1.134         33        640: 15% ━╸────────── 2/13 3.9it/s 0.4s<2.8s[K       2/10      1.29G      1.135      1.158      1.122         52        640: 23% ━━╸───────── 3/13 5.2it/s 0.5s<1.9s[K       2/10      1.29G      1.115      1.112      1.122         33        640: 30% ━━━╸──────── 4/13 6.1it/s 0.6s<1.5s[K       2/10      1.29G      1.059      1.068      1.099         59        640: 38% ━━━━╸─────── 5/13 6.8it/s 0.8s<1.2s[K       2/10      1.29G      1.064      1.047      1.093         75        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       2/10      1.29G      1.116      1.072      1.115        102        640: 53% ━━━━━━────── 7/13 7.3it/s 1.0s<0.8s[K       2/10      1.29G      1.112      1.052      1.119         50        640: 61% ━━━━━━━───── 8/13 7.5it/s 1.1s<0.7s[K       2/10      1.29G      1.099       1.03      1.126         47        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.3s<0.5s[K       2/10      1.29G      1.103      1.039      1.125         90        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K       2/10      1.29G      1.098      1.032      1.118         61        640: 84% ━━━━━━━━━━── 11/13 7.5it/s 1.5s<0.3s[K       2/10      1.29G      1.092      1.043      1.118         55        640: 92% ━━━━━━━━━━━─ 12/13 7.9it/s 1.6s<0.1s[K       2/10      1.29G      1.092      1.043      1.118         55        640: 100% ━━━━━━━━━━━━ 13/13 7.9it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.8it/s 0.2s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 6.9it/s 0.3s
+                   all         26        139      0.643      0.701      0.788      0.627
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       3/10      1.29G      1.263     0.9973      1.224         39        640: 0% ──────────── 0/13  0.1s[K       3/10      1.29G      1.048     0.9003      1.123         43        640: 7% ╸─────────── 1/13 2.5it/s 0.2s<4.7s[K       3/10      1.29G      1.123      0.927      1.111         90        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       3/10      1.29G      1.183      1.025      1.098        134        640: 23% ━━╸───────── 3/13 5.3it/s 0.5s<1.9s[K       3/10      1.29G      1.132      1.014      1.096         56        640: 30% ━━━╸──────── 4/13 6.2it/s 0.6s<1.4s[K       3/10      1.29G      1.158      1.054      1.104         43        640: 38% ━━━━╸─────── 5/13 6.7it/s 0.7s<1.2s[K       3/10      1.29G      1.142      1.047      1.097         65        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       3/10      1.29G       1.12      1.013      1.095         35        640: 53% ━━━━━━────── 7/13 7.5it/s 1.0s<0.8s[K       3/10      1.29G      1.095      1.019      1.104         53        640: 61% ━━━━━━━───── 8/13 7.7it/s 1.1s<0.6s[K       3/10      1.29G      1.084      1.024      1.103         67        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.2s<0.5s[K       3/10      1.29G      1.062      1.026      1.096         61        640: 76% ━━━━━━━━━─── 10/13 7.8it/s 1.4s<0.4s[K       3/10      1.29G      1.098      1.044      1.118         74        640: 84% ━━━━━━━━━━── 11/13 7.8it/s 1.5s<0.3s[K       3/10      1.29G        1.1      1.034      1.128         27        640: 92% ━━━━━━━━━━━─ 12/13 8.0it/s 1.6s<0.1s[K       3/10      1.29G        1.1      1.034      1.128         27        640: 100% ━━━━━━━━━━━━ 13/13 8.1it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.2it/s 0.3s
+                   all         26        139      0.643      0.701      0.788      0.627
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       4/10      1.29G      1.179      1.093      1.143         55        640: 0% ──────────── 0/13  0.1s[K       4/10      1.29G      1.012      1.009      1.103         62        640: 7% ╸─────────── 1/13 2.4it/s 0.3s<4.9s[K       4/10      1.29G     0.9606     0.9185      1.098         25        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       4/10      1.29G     0.9838      1.006      1.154         32        640: 23% ━━╸───────── 3/13 5.5it/s 0.5s<1.8s[K       4/10      1.29G      1.002          1      1.138         55        640: 30% ━━━╸──────── 4/13 6.3it/s 0.6s<1.4s[K       4/10      1.29G     0.9974     0.9923      1.121         37        640: 38% ━━━━╸─────── 5/13 6.9it/s 0.7s<1.2s[K       4/10      1.29G      1.044      1.035      1.114        109        640: 46% ━━━━━╸────── 6/13 7.2it/s 0.9s<1.0s[K       4/10      1.29G      1.046      1.034      1.121         69        640: 53% ━━━━━━────── 7/13 7.5it/s 1.0s<0.8s[K       4/10      1.29G      1.041       1.02      1.124         41        640: 61% ━━━━━━━───── 8/13 7.5it/s 1.1s<0.7s[K       4/10      1.29G      1.071       1.03       1.13        123        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.2s<0.5s[K       4/10      1.29G       1.09      1.031      1.124         62        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K       4/10      1.29G      1.082      1.033      1.121         62        640: 84% ━━━━━━━━━━── 11/13 7.6it/s 1.5s<0.3s[K       4/10      1.29G      1.083      1.038      1.116         55        640: 92% ━━━━━━━━━━━─ 12/13 7.9it/s 1.6s<0.1s[K       4/10      1.29G      1.083      1.038      1.116         55        640: 100% ━━━━━━━━━━━━ 13/13 8.0it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.8it/s 0.2s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.3it/s 0.3s
+                   all         26        139      0.643      0.701      0.788      0.627
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       5/10      1.29G      1.122      1.274      1.083         51        640: 0% ──────────── 0/13  0.1s[K       5/10      1.29G      1.121      1.314      1.079         42        640: 7% ╸─────────── 1/13 2.5it/s 0.2s<4.8s[K       5/10      1.29G      1.078      1.222      1.091         73        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       5/10      1.29G      1.144      1.134       1.09         73        640: 23% ━━╸───────── 3/13 4.6it/s 0.6s<2.2s[K       5/10       1.3G      1.134      1.151      1.093         63        640: 30% ━━━╸──────── 4/13 5.6it/s 0.7s<1.6s[K       5/10      1.31G      1.141       1.14      1.098         76        640: 38% ━━━━╸─────── 5/13 6.4it/s 0.8s<1.3s[K       5/10      1.31G      1.095       1.09      1.094         55        640: 46% ━━━━━╸────── 6/13 6.8it/s 0.9s<1.0s[K       5/10      1.31G      1.102       1.09      1.099         72        640: 53% ━━━━━━────── 7/13 7.1it/s 1.1s<0.8s[K       5/10      1.31G       1.13      1.108       1.12        107        640: 61% ━━━━━━━───── 8/13 7.4it/s 1.2s<0.7s[K       5/10      1.31G      1.153      1.146      1.131         68        640: 69% ━━━━━━━━──── 9/13 7.5it/s 1.3s<0.5s[K       5/10      1.31G      1.125      1.142       1.13         34        640: 76% ━━━━━━━━━─── 10/13 7.5it/s 1.4s<0.4s[K       5/10      1.31G      1.115      1.152      1.123         42        640: 84% ━━━━━━━━━━── 11/13 7.4it/s 1.6s<0.3s[K       5/10      1.31G      1.117      1.135      1.121         31        640: 92% ━━━━━━━━━━━─ 12/13 7.8it/s 1.7s<0.1s[K       5/10      1.31G      1.117      1.135      1.121         31        640: 100% ━━━━━━━━━━━━ 13/13 7.7it/s 1.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.6it/s 0.3s
+                   all         26        139      0.659      0.606      0.709      0.549
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       6/10      1.31G      1.076     0.9457       1.21         31        640: 0% ──────────── 0/13  0.1s[K       6/10      1.31G      0.943     0.9642       1.12         61        640: 7% ╸─────────── 1/13 2.4it/s 0.2s<4.9s[K       6/10      1.31G     0.9623     0.9896      1.109         55        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       6/10      1.31G     0.9117     0.9124      1.072         48        640: 23% ━━╸───────── 3/13 5.5it/s 0.5s<1.8s[K       6/10      1.31G     0.9748     0.9728      1.088         91        640: 30% ━━━╸──────── 4/13 6.5it/s 0.6s<1.4s[K       6/10      1.31G      1.044      1.016      1.115         90        640: 38% ━━━━╸─────── 5/13 7.0it/s 0.7s<1.1s[K       6/10      1.31G      1.058      1.099      1.123         29        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       6/10      1.31G      1.027      1.065       1.11         86        640: 53% ━━━━━━────── 7/13 7.3it/s 1.0s<0.8s[K       6/10      1.31G      1.027      1.048      1.101         57        640: 61% ━━━━━━━───── 8/13 7.5it/s 1.1s<0.7s[K       6/10      1.31G      1.049      1.044      1.095        119        640: 69% ━━━━━━━━──── 9/13 7.6it/s 1.2s<0.5s[K       6/10      1.31G      1.036      1.038      1.092         37        640: 76% ━━━━━━━━━─── 10/13 7.7it/s 1.4s<0.4s[K       6/10      1.31G      1.027      1.026      1.087         59        640: 84% ━━━━━━━━━━── 11/13 7.7it/s 1.5s<0.3s[K       6/10      1.31G      1.019       1.02      1.099         24        640: 92% ━━━━━━━━━━━─ 12/13 8.0it/s 1.6s<0.1s[K       6/10      1.31G      1.019       1.02      1.099         24        640: 100% ━━━━━━━━━━━━ 13/13 8.1it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 6.9it/s 0.3s
+                   all         26        139      0.717      0.566      0.714      0.555
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       7/10      1.31G     0.9097     0.8878      1.026         60        640: 0% ──────────── 0/13  0.1s[K       7/10      1.31G     0.8551     0.9278      1.035         69        640: 7% ╸─────────── 1/13 2.2it/s 0.3s<5.5s[K       7/10      1.31G     0.7673     0.9246      1.012         24        640: 15% ━╸────────── 2/13 4.0it/s 0.4s<2.8s[K       7/10      1.31G     0.8819     0.9459      1.028         73        640: 23% ━━╸───────── 3/13 5.1it/s 0.5s<2.0s[K       7/10      1.31G     0.9673     0.9803      1.044         65        640: 30% ━━━╸──────── 4/13 5.9it/s 0.6s<1.5s[K       7/10      1.31G     0.9923     0.9614      1.046         68        640: 38% ━━━━╸─────── 5/13 6.6it/s 0.8s<1.2s[K       7/10      1.31G     0.9623     0.9222      1.046         51        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       7/10      1.31G     0.9521     0.9092      1.048         43        640: 53% ━━━━━━────── 7/13 7.3it/s 1.0s<0.8s[K       7/10      1.31G     0.9877     0.9267      1.058         89        640: 61% ━━━━━━━───── 8/13 7.4it/s 1.1s<0.7s[K       7/10      1.31G     0.9725     0.9404      1.054         46        640: 69% ━━━━━━━━──── 9/13 7.4it/s 1.3s<0.5s[K       7/10      1.31G     0.9724     0.9327       1.05        100        640: 76% ━━━━━━━━━─── 10/13 7.5it/s 1.4s<0.4s[K       7/10      1.31G     0.9665     0.9269      1.043         64        640: 84% ━━━━━━━━━━── 11/13 7.6it/s 1.5s<0.3s[K       7/10      1.31G     0.9536     0.9042      1.044         35        640: 92% ━━━━━━━━━━━─ 12/13 7.8it/s 1.7s<0.1s[K       7/10      1.31G     0.9536     0.9042      1.044         35        640: 100% ━━━━━━━━━━━━ 13/13 7.8it/s 1.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.1it/s 0.3s
+                   all         26        139       0.57      0.689      0.681      0.534
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       8/10      1.31G     0.8175     0.8499     0.9318         49        640: 0% ──────────── 0/13  0.1s[K       8/10      1.31G      1.033      1.007     0.9867        110        640: 7% ╸─────────── 1/13 2.4it/s 0.3s<4.9s[K       8/10      1.31G      1.029     0.9863      1.037         77        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       8/10      1.31G      1.014     0.9765      1.044         61        640: 23% ━━╸───────── 3/13 5.4it/s 0.5s<1.8s[K       8/10      1.31G      0.976     0.9478      1.033         78        640: 30% ━━━╸──────── 4/13 6.1it/s 0.6s<1.5s[K       8/10      1.31G     0.9713     0.9206      1.039         85        640: 38% ━━━━╸─────── 5/13 6.6it/s 0.8s<1.2s[K       8/10      1.31G     0.9633     0.9052      1.024         49        640: 46% ━━━━━╸────── 6/13 7.0it/s 0.9s<1.0s[K       8/10      1.31G     0.9659     0.8946      1.028         63        640: 53% ━━━━━━────── 7/13 7.4it/s 1.0s<0.8s[K       8/10      1.31G     0.9427     0.8647       1.03         48        640: 61% ━━━━━━━───── 8/13 7.4it/s 1.1s<0.7s[K       8/10      1.31G     0.9214     0.8356      1.032         30        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.3s<0.5s[K       8/10      1.31G      0.902     0.8188      1.021         45        640: 76% ━━━━━━━━━─── 10/13 7.7it/s 1.4s<0.4s[K       8/10      1.31G     0.8983     0.8151       1.02         43        640: 84% ━━━━━━━━━━── 11/13 7.7it/s 1.5s<0.3s[K       8/10      1.31G     0.9085     0.8192      1.019         49        640: 92% ━━━━━━━━━━━─ 12/13 7.8it/s 1.6s<0.1s[K       8/10      1.31G     0.9085     0.8192      1.019         49        640: 100% ━━━━━━━━━━━━ 13/13 7.9it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.3it/s 0.3s
+                   all         26        139       0.67       0.61      0.669       0.53
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       9/10      1.31G     0.6939     0.7015     0.9845         55        640: 0% ──────────── 0/13  0.1s[K       9/10      1.31G     0.8005     0.7198     0.9758         92        640: 7% ╸─────────── 1/13 2.4it/s 0.3s<4.9s[K       9/10      1.31G     0.7885     0.6755      1.009         33        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       9/10      1.31G     0.8102     0.6919      1.011         91        640: 23% ━━╸───────── 3/13 5.5it/s 0.5s<1.8s[K       9/10      1.31G     0.7977     0.7215      1.001         63        640: 30% ━━━╸──────── 4/13 6.2it/s 0.6s<1.5s[K       9/10      1.31G     0.8298     0.7546      1.022         79        640: 38% ━━━━╸─────── 5/13 6.7it/s 0.7s<1.2s[K       9/10      1.31G     0.8502      0.771      1.008         71        640: 46% ━━━━━╸────── 6/13 7.2it/s 0.9s<1.0s[K       9/10      1.31G     0.8515     0.7573     0.9966         42        640: 53% ━━━━━━────── 7/13 7.2it/s 1.0s<0.8s[K       9/10      1.31G     0.8803      0.786      1.002         98        640: 61% ━━━━━━━───── 8/13 7.5it/s 1.1s<0.7s[K       9/10      1.31G     0.8811     0.7804      1.005         44        640: 69% ━━━━━━━━──── 9/13 7.5it/s 1.3s<0.5s[K       9/10      1.31G     0.8732     0.7634      1.006         25        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K       9/10      1.31G     0.8708     0.7575      1.007         59        640: 84% ━━━━━━━━━━── 11/13 7.6it/s 1.5s<0.3s[K       9/10      1.31G     0.8655     0.7524      1.006         35        640: 92% ━━━━━━━━━━━─ 12/13 8.0it/s 1.6s<0.1s[K       9/10      1.31G     0.8655     0.7524      1.006         35        640: 100% ━━━━━━━━━━━━ 13/13 8.0it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.6it/s 0.2s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 6.5it/s 0.3s
+                   all         26        139      0.644      0.612      0.674      0.532
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K      10/10      1.31G     0.7027     0.7649     0.9565         39        640: 0% ──────────── 0/13  0.1s[K      10/10      1.31G     0.7604     0.7434     0.9523         80        640: 7% ╸─────────── 1/13 2.5it/s 0.2s<4.8s[K      10/10      1.31G     0.7587     0.7314     0.9648         51        640: 15% ━╸────────── 2/13 4.1it/s 0.4s<2.7s[K      10/10      1.31G     0.7705     0.7099     0.9674         68        640: 23% ━━╸───────── 3/13 5.3it/s 0.5s<1.9s[K      10/10      1.31G     0.7924     0.6921     0.9797         58        640: 30% ━━━╸──────── 4/13 6.2it/s 0.6s<1.5s[K      10/10      1.31G     0.8311     0.7319     0.9729         85        640: 38% ━━━━╸─────── 5/13 6.8it/s 0.7s<1.2s[K      10/10      1.31G       0.83     0.7378     0.9767        113        640: 46% ━━━━━╸────── 6/13 7.2it/s 0.9s<1.0s[K      10/10      1.31G     0.8208     0.7215     0.9839         49        640: 53% ━━━━━━────── 7/13 7.5it/s 1.0s<0.8s[K      10/10      1.31G      0.856     0.7569      1.001         84        640: 61% ━━━━━━━───── 8/13 7.7it/s 1.1s<0.6s[K      10/10      1.31G     0.8373     0.7397      1.009         39        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.2s<0.5s[K      10/10      1.31G     0.8179     0.7204     0.9993         26        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K      10/10      1.31G     0.8074     0.7121     0.9943         42        640: 84% ━━━━━━━━━━── 11/13 7.6it/s 1.5s<0.3s[K      10/10      1.31G     0.8363     0.7311     0.9879         53        640: 92% ━━━━━━━━━━━─ 12/13 8.0it/s 1.6s<0.1s[K      10/10      1.31G     0.8363     0.7311     0.9879         53        640: 100% ━━━━━━━━━━━━ 13/13 8.0it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.1it/s 0.3s
+                   all         26        139      0.569      0.636      0.662      0.519
+
+10 epochs completed in 0.014 hours.
+Optimizer stripped from C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\unpruned_control\weights\last.pt, 5.5MB
+Optimizer stripped from C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\unpruned_control\weights\best.pt, 5.5MB
+
+Validating C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\unpruned_control\weights\best.pt...
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,616,248 parameters, 0 gradients, 6.5 GFLOPs
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 11.4s/it 3.4s<11.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 3.4s/it 6.8s
+                   all         26        139      0.644      0.701      0.788      0.627
+                person         13         32      0.897      0.719      0.836      0.568
+               bicycle          1          2          1          0      0.663      0.155
+                   car          2          4      0.256       0.25      0.403      0.195
+            motorcycle          1          2      0.548          1      0.995      0.746
+                   bus          1          1      0.489          1      0.995      0.895
+                 train          1          1      0.824          1      0.995      0.895
+             stop sign          1          1      0.599          1      0.995      0.895
+                  bird          1          8      0.945          1      0.995      0.737
+                   cat          1          1      0.615          1      0.995      0.895
+                   dog          1          1      0.479          1      0.995      0.895
+              elephant          1          7      0.805          1      0.995      0.786
+                 zebra          1          1      0.589          1      0.995      0.995
+               giraffe          2          5      0.612          1      0.995      0.801
+              umbrella          1          1      0.603          1      0.995      0.895
+               frisbee          3          3      0.568          1      0.913       0.83
+           sports ball          2          2      0.154      0.154      0.247     0.0742
+          baseball bat          1          1          1          0     0.0433     0.0173
+        baseball glove          1          1      0.286          1      0.995      0.895
+            skateboard          1          3          1      0.437      0.775      0.274
+         tennis racket          2          2      0.622      0.867      0.828      0.545
+                bottle          2          3      0.543      0.667      0.486      0.433
+                   cup          2          4      0.686        0.5      0.649      0.548
+                  fork          1          1          1          0     0.0474     0.0237
+                 knife          1          5      0.868          1      0.995      0.746
+                 spoon          2          2      0.719          1      0.995      0.746
+                  bowl          2          2      0.357          1      0.828      0.795
+                banana          1          1      0.385          1      0.995      0.895
+              sandwich          1          1          1          0      0.995      0.995
+              broccoli          2          3      0.424      0.333      0.359      0.307
+                carrot          1         10      0.875        0.7      0.842      0.674
+                 pizza          1          1      0.589          1      0.995      0.895
+                 chair          1          1      0.445          1      0.995      0.398
+                   bed          1          1      0.492          1      0.995      0.697
+          dining table          3          3      0.445      0.333      0.624      0.413
+                    tv          1          1       0.53          1      0.995      0.895
+                 mouse          1          1          1          0          0          0
+             microwave          1          1      0.579          1      0.995      0.895
+                  oven          1          1      0.367          1      0.995      0.995
+                  book          2         16       0.56     0.0852      0.521      0.278
+            teddy bear          1          2          1          0      0.572      0.458
+Speed: 0.6ms preprocess, 252.6ms inference, 0.0ms loss, 1.5ms postprocess per image
+Verified: finite training losses, unchanged BN state and pruned widths.
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,616,248 parameters, 0 gradients, 6.5 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 245.691.3 MB/s, size: 47.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.6it/s 0.2s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 13.8it/s 0.3s
+                   all         26        139       0.69      0.682      0.776      0.623
+Speed: 0.4ms preprocess, 3.0ms inference, 0.0ms loss, 1.5ms postprocess per image
+FINETUNED unpruned_control: mAP=0.623207
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+[34m[1mengine\trainer: [0magnostic_nms=False, amp=True, angle=1.0, augment=False, auto_augment=randaugment, batch=8, bgr=0.0, box=7.5, cache=False, cfg=None, channels_last=None, classes=None, close_mosaic=0, cls=0.5, cls_pw=0.0, cls_remap=True, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=C:\Users\22565\OneDrive\Desktop\YOLO\configs\coco128_split.yaml, degrees=0.0, deterministic=True, device=0, dfl=1.5, dgrad=0.5, dis=6.0, distill_model=None, dlam=1.0, dlog=1.0, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=10, erasing=0.4, exist_ok=False, fliplr=0.0, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=640, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.0001, lrf=0.1, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment04_independent\strong\pruned_raw.pt, momentum=0.937, mosaic=0.0, multi_scale=0.0, name=independent_strong, nbs=64, nms=None, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=10, perspective=0.0, plots=False, pose=12.0, pretrained=True, profile=False, project=C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune, quantize=None, rect=False, resume=False, retina_masks=False, rle=1.0, save=True, save_conf=False, save_crop=False, save_dir=C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\independent_strong, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.0, seed=42, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=tracktrack.yaml, translate=0.0, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.0001, warmup_epochs=0.0, warmup_momentum=0.8, weight_decay=0.0001, workers=0, workspace=None
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+[34m[1mAMP: [0mchecks passed 
+[34m[1mtrain: [0mFast image access  (ping: 0.00.0 ms, read: 306.779.3 MB/s, size: 56.5 KB)
+[K[34m[1mtrain: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\train.cache... 100 images, 2 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 102/102 53.5Mit/s 0.0s
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 268.0116.0 MB/s, size: 53.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[34m[1moptimizer:[0m AdamW(lr=0.0001, momentum=0.937) with parameter groups 81 weight(decay=0.0), 88 weight(decay=0.0001), 87 bias(decay=0.0)
+Using 102 train, 26 val images for fraction=1.0 at imgsz=640
+Using 0 dataloader workers
+Logging results to [1mC:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\independent_strong[0m
+Starting training for 10 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       1/10      1.28G      1.221      1.953      1.081         67        640: 0% ──────────── 0/13  2.5s[K       1/10      1.33G      1.191       1.96      1.099         52        640: 7% ╸─────────── 1/13 1.9it/s 2.7s<6.4s[K       1/10      1.33G        1.4      2.214      1.181         93        640: 15% ━╸────────── 2/13 3.6it/s 2.8s<3.1s[K       1/10      1.33G      1.366      2.001      1.167         65        640: 23% ━━╸───────── 3/13 4.8it/s 3.0s<2.1s[K       1/10      1.33G      1.294      1.924      1.162         23        640: 30% ━━━╸──────── 4/13 5.7it/s 3.1s<1.6s[K       1/10      1.34G      1.291       1.89       1.17         92        640: 38% ━━━━╸─────── 5/13 6.3it/s 3.2s<1.3s[K       1/10      1.34G       1.34      1.879      1.198         77        640: 46% ━━━━━╸────── 6/13 6.7it/s 3.4s<1.1s[K       1/10      1.34G      1.303      1.805      1.198         30        640: 53% ━━━━━━────── 7/13 6.8it/s 3.5s<0.9s[K       1/10      1.34G      1.264      1.703      1.189         49        640: 61% ━━━━━━━───── 8/13 7.1it/s 3.6s<0.7s[K       1/10      1.34G      1.244      1.648      1.193         40        640: 69% ━━━━━━━━──── 9/13 7.3it/s 3.8s<0.5s[K       1/10      1.34G      1.228      1.647      1.191         68        640: 76% ━━━━━━━━━─── 10/13 7.5it/s 3.9s<0.4s[K       1/10      1.34G      1.233      1.627      1.189         76        640: 84% ━━━━━━━━━━── 11/13 7.4it/s 4.0s<0.3s[K       1/10       1.4G      1.239       1.64       1.19         55        640: 92% ━━━━━━━━━━━─ 12/13 5.3it/s 6.9s<0.2s[K       1/10       1.4G      1.239       1.64       1.19         55        640: 100% ━━━━━━━━━━━━ 13/13 1.9it/s 6.9s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 4.4s/it 1.3s<4.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.3s/it 2.5s
+                   all         26        139      0.697      0.604      0.695      0.506
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       2/10      1.48G      1.256      1.344      1.119         63        640: 0% ──────────── 0/13  0.1s[K       2/10      1.48G      1.343      1.873      1.184         67        640: 7% ╸─────────── 1/13 2.3it/s 0.3s<5.3s[K       2/10      1.48G      1.264      1.657      1.194         33        640: 15% ━╸────────── 2/13 3.8it/s 0.4s<2.9s[K       2/10      1.48G      1.248      1.736      1.168         52        640: 23% ━━╸───────── 3/13 5.1it/s 0.5s<1.9s[K       2/10      1.48G      1.222      1.637      1.167         33        640: 30% ━━━╸──────── 4/13 6.0it/s 0.6s<1.5s[K       2/10      1.48G      1.171      1.564      1.142         59        640: 38% ━━━━╸─────── 5/13 6.8it/s 0.8s<1.2s[K       2/10      1.48G      1.181       1.55      1.139         75        640: 46% ━━━━━╸────── 6/13 7.2it/s 0.9s<1.0s[K       2/10      1.48G      1.237      1.619      1.165        102        640: 53% ━━━━━━────── 7/13 7.4it/s 1.0s<0.8s[K       2/10      1.48G       1.24      1.592      1.174         50        640: 61% ━━━━━━━───── 8/13 7.5it/s 1.1s<0.7s[K       2/10      1.48G       1.23      1.559      1.181         47        640: 69% ━━━━━━━━──── 9/13 7.6it/s 1.3s<0.5s[K       2/10      1.48G      1.244      1.599      1.189         90        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K       2/10      1.48G      1.233      1.595      1.184         61        640: 84% ━━━━━━━━━━── 11/13 7.6it/s 1.5s<0.3s[K       2/10      1.48G      1.231      1.597      1.187         55        640: 92% ━━━━━━━━━━━─ 12/13 8.0it/s 1.6s<0.1s[K       2/10      1.48G      1.231      1.597      1.187         55        640: 100% ━━━━━━━━━━━━ 13/13 7.9it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.2it/s 0.3s
+                   all         26        139      0.697      0.604      0.695      0.506
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       3/10      1.48G      1.426      1.462      1.345         39        640: 0% ──────────── 0/13  0.1s[K       3/10      1.48G      1.175      1.273      1.215         43        640: 7% ╸─────────── 1/13 2.5it/s 0.2s<4.9s[K       3/10      1.48G      1.245      1.435      1.191         90        640: 15% ━╸────────── 2/13 4.1it/s 0.4s<2.7s[K       3/10      1.48G      1.307      1.664      1.166        134        640: 23% ━━╸───────── 3/13 5.3it/s 0.5s<1.9s[K       3/10      1.48G      1.279      1.627      1.177         56        640: 30% ━━━╸──────── 4/13 6.2it/s 0.6s<1.4s[K       3/10      1.48G      1.301      1.662      1.169         43        640: 38% ━━━━╸─────── 5/13 6.8it/s 0.7s<1.2s[K       3/10      1.48G      1.288      1.675      1.169         65        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       3/10      1.48G      1.259      1.592      1.164         35        640: 53% ━━━━━━────── 7/13 7.5it/s 1.0s<0.8s[K       3/10      1.48G      1.235      1.592       1.17         53        640: 61% ━━━━━━━───── 8/13 7.7it/s 1.1s<0.7s[K       3/10      1.48G      1.228      1.602      1.174         67        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.2s<0.5s[K       3/10      1.48G       1.21        1.6      1.171         61        640: 76% ━━━━━━━━━─── 10/13 7.8it/s 1.4s<0.4s[K       3/10      1.48G      1.249      1.614      1.194         74        640: 84% ━━━━━━━━━━── 11/13 7.8it/s 1.5s<0.3s[K       3/10      1.48G      1.249      1.584        1.2         27        640: 92% ━━━━━━━━━━━─ 12/13 8.1it/s 1.6s<0.1s[K       3/10      1.48G      1.249      1.584        1.2         27        640: 100% ━━━━━━━━━━━━ 13/13 8.1it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.6it/s 0.3s
+                   all         26        139      0.697      0.604      0.695      0.506
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       4/10      1.48G      1.224      1.873      1.161         55        640: 0% ──────────── 0/13  0.1s[K       4/10      1.48G      1.147      1.673      1.184         62        640: 7% ╸─────────── 1/13 2.5it/s 0.3s<4.9s[K       4/10      1.48G      1.074      1.457      1.175         25        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       4/10      1.48G      1.121      1.551       1.24         32        640: 23% ━━╸───────── 3/13 5.5it/s 0.5s<1.8s[K       4/10      1.48G      1.145       1.51       1.22         55        640: 30% ━━━╸──────── 4/13 6.4it/s 0.6s<1.4s[K       4/10      1.48G      1.142      1.542       1.21         37        640: 38% ━━━━╸─────── 5/13 7.0it/s 0.7s<1.1s[K       4/10      1.48G      1.181      1.666      1.195        109        640: 46% ━━━━━╸────── 6/13 7.3it/s 0.9s<1.0s[K       4/10      1.48G      1.191      1.644      1.204         69        640: 53% ━━━━━━────── 7/13 7.6it/s 1.0s<0.8s[K       4/10      1.48G       1.19       1.61      1.204         41        640: 61% ━━━━━━━───── 8/13 7.6it/s 1.1s<0.7s[K       4/10      1.48G      1.228      1.642      1.213        123        640: 69% ━━━━━━━━──── 9/13 7.8it/s 1.2s<0.5s[K       4/10      1.48G      1.241       1.62      1.203         62        640: 76% ━━━━━━━━━─── 10/13 7.8it/s 1.4s<0.4s[K       4/10      1.48G      1.229      1.597      1.197         62        640: 84% ━━━━━━━━━━── 11/13 7.9it/s 1.5s<0.3s[K       4/10      1.48G      1.223      1.591      1.188         55        640: 92% ━━━━━━━━━━━─ 12/13 8.2it/s 1.6s<0.1s[K       4/10      1.48G      1.223      1.591      1.188         55        640: 100% ━━━━━━━━━━━━ 13/13 8.1it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.6it/s 0.3s
+                   all         26        139      0.697      0.604      0.695      0.506
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       5/10      1.48G      1.315       2.07       1.17         51        640: 0% ──────────── 0/13  0.1s[K       5/10      1.48G       1.25      2.166      1.159         42        640: 7% ╸─────────── 1/13 2.5it/s 0.2s<4.7s[K       5/10      1.48G      1.238      1.987      1.185         73        640: 15% ━╸────────── 2/13 4.3it/s 0.4s<2.6s[K       5/10      1.48G      1.276      1.785      1.156         73        640: 23% ━━╸───────── 3/13 5.2it/s 0.5s<1.9s[K       5/10      1.48G      1.286      1.748      1.179         63        640: 30% ━━━╸──────── 4/13 6.0it/s 0.6s<1.5s[K       5/10      1.49G      1.288      1.684       1.18         76        640: 38% ━━━━╸─────── 5/13 6.7it/s 0.7s<1.2s[K       5/10      1.49G      1.241      1.663      1.175         55        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       5/10      1.49G      1.247      1.674       1.18         72        640: 53% ━━━━━━────── 7/13 7.4it/s 1.0s<0.8s[K       5/10      1.49G      1.267      1.659      1.186        107        640: 61% ━━━━━━━───── 8/13 7.6it/s 1.1s<0.7s[K       5/10      1.49G      1.314      1.753      1.196         68        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.2s<0.5s[K       5/10      1.49G      1.311      1.727      1.218         34        640: 76% ━━━━━━━━━─── 10/13 7.8it/s 1.4s<0.4s[K       5/10      1.49G      1.296      1.788      1.212         42        640: 84% ━━━━━━━━━━── 11/13 7.7it/s 1.5s<0.3s[K       5/10      1.49G      1.294      1.783      1.207         31        640: 92% ━━━━━━━━━━━─ 12/13 8.0it/s 1.6s<0.1s[K       5/10      1.49G      1.294      1.783      1.207         31        640: 100% ━━━━━━━━━━━━ 13/13 8.0it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.2it/s 0.3s
+                   all         26        139      0.589      0.496      0.578      0.438
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       6/10      1.49G      1.634       1.76      1.552         31        640: 0% ──────────── 0/13  0.1s[K       6/10      1.49G      1.426      1.705      1.439         61        640: 7% ╸─────────── 1/13 2.3it/s 0.3s<5.1s[K       6/10      1.49G      1.367      1.619      1.362         55        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       6/10      1.49G      1.248      1.509       1.28         48        640: 23% ━━╸───────── 3/13 5.5it/s 0.5s<1.8s[K       6/10      1.49G      1.308      1.653       1.28         91        640: 30% ━━━╸──────── 4/13 6.5it/s 0.6s<1.4s[K       6/10      1.49G      1.366      1.658      1.281         90        640: 38% ━━━━╸─────── 5/13 7.1it/s 0.7s<1.1s[K       6/10       1.5G      1.379      1.782      1.275         29        640: 46% ━━━━━╸────── 6/13 7.2it/s 0.9s<1.0s[K       6/10       1.5G      1.337      1.736      1.256         86        640: 53% ━━━━━━────── 7/13 7.5it/s 1.0s<0.8s[K       6/10       1.5G       1.32      1.656      1.237         57        640: 61% ━━━━━━━───── 8/13 7.6it/s 1.1s<0.7s[K       6/10       1.5G      1.325      1.643      1.219        119        640: 69% ━━━━━━━━──── 9/13 7.8it/s 1.2s<0.5s[K       6/10       1.5G      1.298       1.61      1.206         37        640: 76% ━━━━━━━━━─── 10/13 7.8it/s 1.4s<0.4s[K       6/10       1.5G      1.284      1.573      1.202         59        640: 84% ━━━━━━━━━━── 11/13 7.8it/s 1.5s<0.3s[K       6/10       1.5G      1.274      1.552      1.215         24        640: 92% ━━━━━━━━━━━─ 12/13 8.2it/s 1.6s<0.1s[K       6/10       1.5G      1.274      1.552      1.215         24        640: 100% ━━━━━━━━━━━━ 13/13 8.2it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.7it/s 0.3s
+                   all         26        139      0.583       0.58      0.597      0.448
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       7/10       1.5G      1.051      1.152      1.119         60        640: 0% ──────────── 0/13  0.1s[K       7/10       1.5G     0.9784      1.209      1.106         69        640: 7% ╸─────────── 1/13 2.3it/s 0.3s<5.2s[K       7/10       1.5G     0.9497      1.448      1.125         24        640: 15% ━╸────────── 2/13 4.1it/s 0.4s<2.7s[K       7/10       1.5G       1.08      1.502      1.122         73        640: 23% ━━╸───────── 3/13 5.3it/s 0.5s<1.9s[K       7/10       1.5G      1.126       1.56      1.097         65        640: 30% ━━━╸──────── 4/13 6.1it/s 0.6s<1.5s[K       7/10       1.5G      1.139      1.475      1.097         68        640: 38% ━━━━╸─────── 5/13 6.7it/s 0.8s<1.2s[K       7/10       1.5G      1.111       1.41       1.11         51        640: 46% ━━━━━╸────── 6/13 7.2it/s 0.9s<1.0s[K       7/10       1.5G      1.114      1.425       1.12         43        640: 53% ━━━━━━────── 7/13 7.4it/s 1.0s<0.8s[K       7/10       1.5G      1.175       1.43      1.136         89        640: 61% ━━━━━━━───── 8/13 7.5it/s 1.1s<0.7s[K       7/10       1.5G      1.153      1.438      1.127         46        640: 69% ━━━━━━━━──── 9/13 7.5it/s 1.3s<0.5s[K       7/10       1.5G       1.16       1.43      1.127        100        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K       7/10       1.5G      1.162       1.44       1.13         64        640: 84% ━━━━━━━━━━── 11/13 7.7it/s 1.5s<0.3s[K       7/10       1.5G      1.149      1.406      1.135         35        640: 92% ━━━━━━━━━━━─ 12/13 8.1it/s 1.6s<0.1s[K       7/10       1.5G      1.149      1.406      1.135         35        640: 100% ━━━━━━━━━━━━ 13/13 7.9it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.6it/s 0.3s
+                   all         26        139      0.583      0.647      0.659      0.501
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       8/10       1.5G      1.164      1.176      1.105         49        640: 0% ──────────── 0/13  0.1s[K       8/10       1.5G      1.274       1.55       1.09        110        640: 7% ╸─────────── 1/13 2.4it/s 0.3s<5.0s[K       8/10       1.5G      1.268      1.539       1.13         77        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       8/10       1.5G      1.251      1.515      1.152         61        640: 23% ━━╸───────── 3/13 5.5it/s 0.5s<1.8s[K       8/10       1.5G      1.205      1.467      1.139         78        640: 30% ━━━╸──────── 4/13 6.2it/s 0.6s<1.5s[K       8/10       1.5G      1.207      1.435      1.142         85        640: 38% ━━━━╸─────── 5/13 6.6it/s 0.8s<1.2s[K       8/10       1.5G      1.179      1.378       1.12         49        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       8/10       1.5G       1.18       1.35      1.129         63        640: 53% ━━━━━━────── 7/13 7.5it/s 1.0s<0.8s[K       8/10       1.5G      1.152      1.304      1.134         48        640: 61% ━━━━━━━───── 8/13 7.6it/s 1.1s<0.7s[K       8/10       1.5G       1.12      1.263      1.134         30        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.2s<0.5s[K       8/10       1.5G      1.092      1.224      1.115         45        640: 76% ━━━━━━━━━─── 10/13 7.7it/s 1.4s<0.4s[K       8/10       1.5G      1.087      1.248      1.113         43        640: 84% ━━━━━━━━━━── 11/13 7.8it/s 1.5s<0.3s[K       8/10       1.5G      1.094      1.247      1.107         49        640: 92% ━━━━━━━━━━━─ 12/13 7.9it/s 1.6s<0.1s[K       8/10       1.5G      1.094      1.247      1.107         49        640: 100% ━━━━━━━━━━━━ 13/13 8.0it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.9it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.5it/s 0.3s
+                   all         26        139      0.639      0.668      0.704      0.524
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       9/10       1.5G     0.8148      0.971      1.044         55        640: 0% ──────────── 0/13  0.1s[K       9/10       1.5G     0.9401     0.9925      1.046         92        640: 7% ╸─────────── 1/13 2.4it/s 0.2s<4.9s[K       9/10       1.5G     0.9123     0.9526      1.069         33        640: 15% ━╸────────── 2/13 4.1it/s 0.4s<2.7s[K       9/10       1.5G     0.9425      1.005      1.072         91        640: 23% ━━╸───────── 3/13 5.3it/s 0.5s<1.9s[K       9/10       1.5G     0.9351      1.024      1.063         63        640: 30% ━━━╸──────── 4/13 6.1it/s 0.6s<1.5s[K       9/10       1.5G     0.9943      1.068       1.09         79        640: 38% ━━━━╸─────── 5/13 6.6it/s 0.7s<1.2s[K       9/10       1.5G      1.013      1.077      1.074         71        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       9/10       1.5G      1.016      1.066      1.061         42        640: 53% ━━━━━━────── 7/13 7.1it/s 1.0s<0.8s[K       9/10       1.5G      1.053       1.13      1.067         98        640: 61% ━━━━━━━───── 8/13 7.3it/s 1.1s<0.7s[K       9/10       1.5G      1.044      1.111      1.073         44        640: 69% ━━━━━━━━──── 9/13 7.4it/s 1.3s<0.5s[K       9/10       1.5G      1.036      1.088      1.077         25        640: 76% ━━━━━━━━━─── 10/13 7.4it/s 1.4s<0.4s[K       9/10       1.5G      1.025        1.1      1.072         59        640: 84% ━━━━━━━━━━── 11/13 7.4it/s 1.5s<0.3s[K       9/10       1.5G      1.018      1.084      1.074         35        640: 92% ━━━━━━━━━━━─ 12/13 7.8it/s 1.7s<0.1s[K       9/10       1.5G      1.018      1.084      1.074         35        640: 100% ━━━━━━━━━━━━ 13/13 7.9it/s 1.7s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.9it/s 0.3s
+                   all         26        139      0.624      0.657      0.682      0.523
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K      10/10       1.5G     0.7875      1.014      1.051         39        640: 0% ──────────── 0/13  0.1s[K      10/10       1.5G     0.8864      1.065      1.034         80        640: 7% ╸─────────── 1/13 2.4it/s 0.2s<4.9s[K      10/10       1.5G     0.9097      1.117      1.058         51        640: 15% ━╸────────── 2/13 4.1it/s 0.4s<2.7s[K      10/10       1.5G     0.9015      1.044      1.039         68        640: 23% ━━╸───────── 3/13 5.3it/s 0.5s<1.9s[K      10/10       1.5G     0.9092      1.008      1.053         58        640: 30% ━━━╸──────── 4/13 6.1it/s 0.6s<1.5s[K      10/10       1.5G     0.9583      1.063      1.039         85        640: 38% ━━━━╸─────── 5/13 6.7it/s 0.7s<1.2s[K      10/10       1.5G     0.9571      1.063       1.04        113        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K      10/10       1.5G     0.9492      1.015      1.042         49        640: 53% ━━━━━━────── 7/13 7.4it/s 1.0s<0.8s[K      10/10       1.5G     0.9901      1.049      1.058         84        640: 61% ━━━━━━━───── 8/13 7.6it/s 1.1s<0.7s[K      10/10       1.5G      0.977      1.025       1.07         39        640: 69% ━━━━━━━━──── 9/13 7.6it/s 1.2s<0.5s[K      10/10       1.5G     0.9684      1.017      1.069         26        640: 76% ━━━━━━━━━─── 10/13 7.5it/s 1.4s<0.4s[K      10/10       1.5G     0.9607      1.013      1.064         42        640: 84% ━━━━━━━━━━── 11/13 7.6it/s 1.5s<0.3s[K      10/10       1.5G     0.9883      1.049      1.054         53        640: 92% ━━━━━━━━━━━─ 12/13 8.0it/s 1.6s<0.1s[K      10/10       1.5G     0.9883      1.049      1.054         53        640: 100% ━━━━━━━━━━━━ 13/13 8.0it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.2it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 8.2it/s 0.2s
+                   all         26        139      0.587      0.679      0.666       0.52
+
+10 epochs completed in 0.009 hours.
+Optimizer stripped from C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\independent_strong\weights\last.pt, 5.3MB
+Optimizer stripped from C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\independent_strong\weights\best.pt, 5.3MB
+
+Validating C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\independent_strong\weights\best.pt...
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,507,040 parameters, 0 gradients, 6.3 GFLOPs
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 3.2s/it 1.0s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.0it/s 1.9s
+                   all         26        139      0.638      0.693      0.704      0.524
+                person         13         32      0.627      0.688      0.784      0.529
+               bicycle          1          2          1          0      0.495      0.132
+                   car          2          4      0.401      0.201      0.154     0.0891
+            motorcycle          1          2          1      0.891      0.995      0.404
+                   bus          1          1      0.581          1      0.995      0.995
+                 train          1          1          1          0      0.497      0.348
+             stop sign          1          1      0.568          1      0.995      0.796
+                  bird          1          8      0.811          1      0.982      0.525
+                   cat          1          1      0.581          1      0.995      0.895
+                   dog          1          1      0.352          1      0.995      0.796
+              elephant          1          7      0.903          1      0.995      0.763
+                 zebra          1          1       0.57          1      0.995      0.995
+               giraffe          2          5      0.741          1      0.962      0.852
+              umbrella          1          1      0.584          1      0.995      0.895
+               frisbee          3          3      0.612          1       0.83      0.654
+           sports ball          2          2          1          0          0          0
+          baseball bat          1          1          1          0          0          0
+        baseball glove          1          1      0.478          1      0.995      0.697
+            skateboard          1          3      0.581      0.333      0.335      0.268
+         tennis racket          2          2       0.41        0.5      0.745      0.446
+                bottle          2          3      0.532      0.667      0.555      0.511
+                   cup          2          4      0.401        0.5      0.523      0.502
+                  fork          1          1          1          0          0          0
+                 knife          1          5       0.53          1      0.962      0.626
+                 spoon          2          2      0.611      0.834      0.663      0.342
+                  bowl          2          2      0.326          1      0.745      0.559
+                banana          1          1      0.234          1      0.497      0.166
+              sandwich          1          1      0.673          1      0.995      0.995
+              broccoli          2          3      0.597      0.333      0.335      0.335
+                carrot          1         10      0.881      0.744      0.858       0.66
+                 pizza          1          1       0.55          1      0.995      0.895
+                 chair          1          1      0.984          1      0.995      0.597
+                   bed          1          1      0.383          1      0.995      0.697
+          dining table          3          3      0.574      0.333        0.5      0.317
+                    tv          1          1      0.609          1      0.995      0.895
+                 mouse          1          1          1          0          0          0
+             microwave          1          1      0.398          1      0.995      0.497
+                  oven          1          1      0.235          1      0.995      0.796
+                  book          2         16      0.495      0.184      0.238     0.0748
+            teddy bear          1          2      0.691        0.5      0.562      0.396
+Speed: 0.2ms preprocess, 66.9ms inference, 0.0ms loss, 1.3ms postprocess per image
+Verified: finite training losses, unchanged BN state and pruned widths.
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,507,040 parameters, 0 gradients, 6.3 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 245.3100.4 MB/s, size: 47.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 12.1Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.8it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 14.9it/s 0.3s
+                   all         26        139      0.619      0.695      0.688      0.518
+Speed: 0.5ms preprocess, 3.1ms inference, 0.0ms loss, 1.3ms postprocess per image
+FINETUNED independent_strong: mAP=0.518285
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+[34m[1mengine\trainer: [0magnostic_nms=False, amp=True, angle=1.0, augment=False, auto_augment=randaugment, batch=8, bgr=0.0, box=7.5, cache=False, cfg=None, channels_last=None, classes=None, close_mosaic=0, cls=0.5, cls_pw=0.0, cls_remap=True, compile=False, conf=None, copy_paste=0.0, copy_paste_mode=flip, cos_lr=False, cutmix=0.0, data=C:\Users\22565\OneDrive\Desktop\YOLO\configs\coco128_split.yaml, degrees=0.0, deterministic=True, device=0, dfl=1.5, dgrad=0.5, dis=6.0, distill_model=None, dlam=1.0, dlog=1.0, dnn=False, dropout=0.0, dynamic=False, embed=None, epochs=10, erasing=0.4, exist_ok=False, fliplr=0.0, flipud=0.0, format=torchscript, fraction=1.0, freeze=None, hsv_h=0.0, hsv_s=0.0, hsv_v=0.0, imgsz=640, iou=0.7, keras=False, kobj=1.0, line_width=None, lr0=0.0001, lrf=0.1, mask_ratio=4, max_det=300, mixup=0.0, mode=train, model=C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\pruned_raw.pt, momentum=0.937, mosaic=0.0, multi_scale=0.0, name=greedy, nbs=64, nms=None, opset=None, optimize=False, optimizer=AdamW, overlap_mask=True, patience=10, perspective=0.0, plots=False, pose=12.0, pretrained=True, profile=False, project=C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune, quantize=None, rect=False, resume=False, retina_masks=False, rle=1.0, save=True, save_conf=False, save_crop=False, save_dir=C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\greedy, save_frames=False, save_json=False, save_period=-1, save_txt=False, scale=0.0, seed=42, shear=0.0, show=False, show_boxes=True, show_conf=True, show_labels=True, simplify=True, single_cls=False, source=None, split=val, stream_buffer=False, task=detect, time=None, tracker=tracktrack.yaml, translate=0.0, val=True, verbose=True, vid_stride=1, visualize=False, warmup_bias_lr=0.0001, warmup_epochs=0.0, warmup_momentum=0.8, weight_decay=0.0001, workers=0, workspace=None
+Freezing layer 'model.23.dfl.conv.weight'
+[34m[1mAMP: [0mrunning Automatic Mixed Precision (AMP) checks...
+[34m[1mAMP: [0mchecks passed 
+[34m[1mtrain: [0mFast image access  (ping: 0.00.0 ms, read: 325.458.8 MB/s, size: 56.5 KB)
+[K[34m[1mtrain: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\train.cache... 100 images, 2 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 102/102 47.5Mit/s 0.0s
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 347.9156.5 MB/s, size: 53.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
+[34m[1moptimizer:[0m AdamW(lr=0.0001, momentum=0.937) with parameter groups 81 weight(decay=0.0), 88 weight(decay=0.0001), 87 bias(decay=0.0)
+Using 102 train, 26 val images for fraction=1.0 at imgsz=640
+Using 0 dataloader workers
+Logging results to [1mC:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\greedy[0m
+Starting training for 10 epochs...
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       1/10      1.28G      1.033      1.327       1.04         67        640: 0% ──────────── 0/13  1.7s[K       1/10      1.33G      1.076      1.168       1.09         52        640: 7% ╸─────────── 1/13 2.0it/s 1.8s<5.9s[K       1/10      1.34G      1.241      1.338      1.148         93        640: 15% ━╸────────── 2/13 3.7it/s 1.9s<3.0s[K       1/10      1.34G      1.245      1.359      1.135         65        640: 23% ━━╸───────── 3/13 4.9it/s 2.1s<2.0s[K       1/10      1.34G      1.171      1.345      1.122         23        640: 30% ━━━╸──────── 4/13 5.8it/s 2.2s<1.5s[K       1/10      1.34G      1.145      1.284      1.121         92        640: 38% ━━━━╸─────── 5/13 6.5it/s 2.3s<1.2s[K       1/10      1.34G        1.2      1.354      1.147         77        640: 46% ━━━━━╸────── 6/13 6.8it/s 2.5s<1.0s[K       1/10      1.34G      1.168      1.336       1.15         30        640: 53% ━━━━━━────── 7/13 7.1it/s 2.6s<0.8s[K       1/10      1.34G      1.133      1.271      1.139         49        640: 61% ━━━━━━━───── 8/13 7.4it/s 2.7s<0.7s[K       1/10      1.34G      1.131      1.248      1.153         40        640: 69% ━━━━━━━━──── 9/13 7.6it/s 2.8s<0.5s[K       1/10      1.34G      1.115      1.248      1.149         68        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 3.0s<0.4s[K       1/10      1.34G      1.123      1.257      1.145         76        640: 84% ━━━━━━━━━━── 11/13 7.7it/s 3.1s<0.3s[K       1/10       1.4G      1.138      1.276      1.146         55        640: 92% ━━━━━━━━━━━─ 12/13 5.6it/s 4.6s<0.2s[K       1/10       1.4G      1.138      1.276      1.146         55        640: 100% ━━━━━━━━━━━━ 13/13 2.8it/s 4.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.4s/it 0.7s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.4it/s 1.4s
+                   all         26        139      0.707      0.622      0.716      0.594
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       2/10      1.49G      1.186      1.063      1.061         63        640: 0% ──────────── 0/13  0.1s[K       2/10      1.49G        1.2      1.287      1.143         67        640: 7% ╸─────────── 1/13 2.4it/s 0.3s<5.1s[K       2/10      1.49G       1.16      1.236      1.159         33        640: 15% ━╸────────── 2/13 3.9it/s 0.4s<2.8s[K       2/10      1.49G      1.132      1.242      1.137         52        640: 23% ━━╸───────── 3/13 5.2it/s 0.5s<1.9s[K       2/10      1.49G      1.113      1.201       1.13         33        640: 30% ━━━╸──────── 4/13 6.1it/s 0.6s<1.5s[K       2/10      1.49G      1.058       1.16      1.104         59        640: 38% ━━━━╸─────── 5/13 6.8it/s 0.8s<1.2s[K       2/10      1.49G      1.093      1.233      1.106         75        640: 46% ━━━━━╸────── 6/13 7.2it/s 0.9s<1.0s[K       2/10      1.49G      1.151      1.264      1.132        102        640: 53% ━━━━━━────── 7/13 7.3it/s 1.0s<0.8s[K       2/10      1.49G      1.138      1.252      1.131         50        640: 61% ━━━━━━━───── 8/13 7.5it/s 1.1s<0.7s[K       2/10      1.49G      1.134      1.235      1.142         47        640: 69% ━━━━━━━━──── 9/13 7.6it/s 1.3s<0.5s[K       2/10      1.49G      1.127      1.227      1.143         90        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K       2/10      1.49G      1.118      1.217      1.136         61        640: 84% ━━━━━━━━━━── 11/13 7.6it/s 1.5s<0.3s[K       2/10      1.49G       1.12      1.243       1.14         55        640: 92% ━━━━━━━━━━━─ 12/13 7.9it/s 1.6s<0.1s[K       2/10      1.49G       1.12      1.243       1.14         55        640: 100% ━━━━━━━━━━━━ 13/13 7.9it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.7it/s 0.3s
+                   all         26        139      0.707      0.622      0.716      0.594
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       3/10      1.49G       1.41      1.187      1.322         39        640: 0% ──────────── 0/13  0.1s[K       3/10      1.49G      1.111      1.022      1.173         43        640: 7% ╸─────────── 1/13 2.6it/s 0.2s<4.7s[K       3/10      1.49G      1.222      1.231      1.165         90        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       3/10      1.49G      1.265      1.299      1.138        134        640: 23% ━━╸───────── 3/13 5.4it/s 0.5s<1.9s[K       3/10      1.49G      1.213      1.249       1.14         56        640: 30% ━━━╸──────── 4/13 6.2it/s 0.6s<1.4s[K       3/10      1.49G      1.216      1.297      1.131         43        640: 38% ━━━━╸─────── 5/13 6.7it/s 0.7s<1.2s[K       3/10      1.49G      1.173      1.277      1.122         65        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       3/10      1.49G      1.141      1.219      1.114         35        640: 53% ━━━━━━────── 7/13 7.5it/s 1.0s<0.8s[K       3/10      1.49G      1.118      1.239      1.121         53        640: 61% ━━━━━━━───── 8/13 7.7it/s 1.1s<0.7s[K       3/10      1.49G      1.121      1.227      1.124         67        640: 69% ━━━━━━━━──── 9/13 7.6it/s 1.2s<0.5s[K       3/10      1.49G      1.108      1.228      1.123         61        640: 76% ━━━━━━━━━─── 10/13 7.8it/s 1.4s<0.4s[K       3/10      1.49G      1.136      1.273      1.142         74        640: 84% ━━━━━━━━━━── 11/13 7.8it/s 1.5s<0.3s[K       3/10      1.49G      1.134       1.24      1.147         27        640: 92% ━━━━━━━━━━━─ 12/13 8.1it/s 1.6s<0.1s[K       3/10      1.49G      1.134       1.24      1.147         27        640: 100% ━━━━━━━━━━━━ 13/13 8.1it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.8it/s 0.3s
+                   all         26        139      0.707      0.622      0.716      0.594
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       4/10      1.49G      1.122     0.9347      1.171         55        640: 0% ──────────── 0/13  0.1s[K       4/10      1.49G      1.046      1.014      1.156         62        640: 7% ╸─────────── 1/13 2.3it/s 0.3s<5.1s[K       4/10      1.49G     0.9739     0.9461      1.141         25        640: 15% ━╸────────── 2/13 4.1it/s 0.4s<2.7s[K       4/10      1.49G      1.008      1.052      1.198         32        640: 23% ━━╸───────── 3/13 5.5it/s 0.5s<1.8s[K       4/10      1.49G      1.061       1.14      1.185         55        640: 30% ━━━╸──────── 4/13 6.3it/s 0.6s<1.4s[K       4/10      1.49G      1.046      1.174      1.163         37        640: 38% ━━━━╸─────── 5/13 6.8it/s 0.7s<1.2s[K       4/10      1.49G      1.087       1.25      1.153        109        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       4/10      1.49G      1.098      1.245      1.159         69        640: 53% ━━━━━━────── 7/13 7.4it/s 1.0s<0.8s[K       4/10      1.49G      1.088      1.219      1.158         41        640: 61% ━━━━━━━───── 8/13 7.4it/s 1.1s<0.7s[K       4/10      1.49G      1.112       1.24      1.163        123        640: 69% ━━━━━━━━──── 9/13 7.6it/s 1.3s<0.5s[K       4/10      1.49G      1.128      1.254      1.152         62        640: 76% ━━━━━━━━━─── 10/13 7.7it/s 1.4s<0.4s[K       4/10      1.49G      1.119      1.247      1.147         62        640: 84% ━━━━━━━━━━── 11/13 7.8it/s 1.5s<0.3s[K       4/10      1.49G      1.118      1.239      1.141         55        640: 92% ━━━━━━━━━━━─ 12/13 8.1it/s 1.6s<0.1s[K       4/10      1.49G      1.118      1.239      1.141         55        640: 100% ━━━━━━━━━━━━ 13/13 8.0it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.1it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 8.1it/s 0.2s
+                   all         26        139      0.707      0.622      0.716      0.594
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       5/10      1.49G      1.272      1.762       1.07         51        640: 0% ──────────── 0/13  0.1s[K       5/10      1.49G      1.182      1.431      1.116         42        640: 7% ╸─────────── 1/13 2.5it/s 0.2s<4.8s[K       5/10      1.49G      1.191      1.458      1.143         73        640: 15% ━╸────────── 2/13 4.3it/s 0.4s<2.6s[K       5/10      1.49G      1.221      1.363       1.13         73        640: 23% ━━╸───────── 3/13 5.2it/s 0.5s<1.9s[K       5/10      1.49G      1.197      1.334      1.131         63        640: 30% ━━━╸──────── 4/13 5.9it/s 0.6s<1.5s[K       5/10      1.49G       1.21      1.326      1.137         76        640: 38% ━━━━╸─────── 5/13 6.6it/s 0.7s<1.2s[K       5/10       1.5G      1.169      1.272      1.137         55        640: 46% ━━━━━╸────── 6/13 6.9it/s 0.9s<1.0s[K       5/10       1.5G      1.168      1.281      1.142         72        640: 53% ━━━━━━────── 7/13 7.2it/s 1.0s<0.8s[K       5/10       1.5G      1.201      1.282      1.156        107        640: 61% ━━━━━━━───── 8/13 7.5it/s 1.1s<0.7s[K       5/10       1.5G      1.226      1.321       1.17         68        640: 69% ━━━━━━━━──── 9/13 7.5it/s 1.3s<0.5s[K       5/10       1.5G      1.204      1.308      1.173         34        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K       5/10       1.5G      1.173      1.323       1.16         42        640: 84% ━━━━━━━━━━── 11/13 7.5it/s 1.5s<0.3s[K       5/10       1.5G      1.168      1.311      1.155         31        640: 92% ━━━━━━━━━━━─ 12/13 7.9it/s 1.6s<0.1s[K       5/10       1.5G      1.168      1.311      1.155         31        640: 100% ━━━━━━━━━━━━ 13/13 7.9it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.7it/s 0.3s
+                   all         26        139      0.607      0.658      0.661      0.495
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       6/10       1.5G      1.003     0.9133      1.172         31        640: 0% ──────────── 0/13  0.1s[K       6/10       1.5G     0.9476       1.07      1.101         61        640: 7% ╸─────────── 1/13 2.5it/s 0.3s<4.8s[K       6/10       1.5G     0.9859      1.019      1.104         55        640: 15% ━╸────────── 2/13 4.3it/s 0.4s<2.6s[K       6/10       1.5G     0.9368     0.9653      1.067         48        640: 23% ━━╸───────── 3/13 5.6it/s 0.5s<1.8s[K       6/10       1.5G     0.9747      1.011      1.082         91        640: 30% ━━━╸──────── 4/13 6.5it/s 0.6s<1.4s[K       6/10       1.5G       1.07      1.067      1.113         90        640: 38% ━━━━╸─────── 5/13 7.0it/s 0.7s<1.1s[K       6/10       1.5G      1.094      1.149       1.12         29        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       6/10       1.5G      1.063      1.114      1.113         86        640: 53% ━━━━━━────── 7/13 7.5it/s 1.0s<0.8s[K       6/10       1.5G      1.057      1.092      1.104         57        640: 61% ━━━━━━━───── 8/13 7.6it/s 1.1s<0.7s[K       6/10       1.5G      1.085      1.124      1.099        119        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.2s<0.5s[K       6/10       1.5G      1.072      1.094      1.094         37        640: 76% ━━━━━━━━━─── 10/13 7.8it/s 1.4s<0.4s[K       6/10       1.5G      1.059      1.085      1.091         59        640: 84% ━━━━━━━━━━── 11/13 7.8it/s 1.5s<0.3s[K       6/10       1.5G      1.052      1.071      1.106         24        640: 92% ━━━━━━━━━━━─ 12/13 8.1it/s 1.6s<0.1s[K       6/10       1.5G      1.052      1.071      1.106         24        640: 100% ━━━━━━━━━━━━ 13/13 8.1it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.9it/s 0.3s
+                   all         26        139      0.756      0.571      0.644      0.495
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       7/10       1.5G     0.8897     0.9391      1.025         60        640: 0% ──────────── 0/13  0.1s[K       7/10       1.5G     0.8805     0.9767      1.058         69        640: 7% ╸─────────── 1/13 2.3it/s 0.3s<5.3s[K       7/10       1.5G     0.7993     0.9628      1.045         24        640: 15% ━╸────────── 2/13 4.0it/s 0.4s<2.7s[K       7/10       1.5G     0.8911      0.933      1.052         73        640: 23% ━━╸───────── 3/13 5.3it/s 0.5s<1.9s[K       7/10       1.5G     0.9845      1.059      1.049         65        640: 30% ━━━╸──────── 4/13 6.2it/s 0.6s<1.5s[K       7/10       1.5G      1.014      1.027      1.055         68        640: 38% ━━━━╸─────── 5/13 6.7it/s 0.8s<1.2s[K       7/10       1.5G     0.9777     0.9964      1.057         51        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       7/10       1.5G     0.9614     0.9966      1.055         43        640: 53% ━━━━━━────── 7/13 7.3it/s 1.0s<0.8s[K       7/10       1.5G      1.026       1.05      1.077         89        640: 61% ━━━━━━━───── 8/13 7.4it/s 1.1s<0.7s[K       7/10       1.5G      1.015      1.046      1.075         46        640: 69% ━━━━━━━━──── 9/13 7.5it/s 1.3s<0.5s[K       7/10       1.5G      1.011      1.036      1.071        100        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K       7/10       1.5G     0.9998       1.03      1.064         64        640: 84% ━━━━━━━━━━── 11/13 7.6it/s 1.5s<0.3s[K       7/10       1.5G     0.9826      1.005      1.064         35        640: 92% ━━━━━━━━━━━─ 12/13 8.0it/s 1.6s<0.1s[K       7/10       1.5G     0.9826      1.005      1.064         35        640: 100% ━━━━━━━━━━━━ 13/13 7.9it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.8it/s 0.3s
+                   all         26        139      0.658      0.561       0.64      0.508
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       8/10       1.5G     0.8127      1.011     0.9456         49        640: 0% ──────────── 0/13  0.1s[K       8/10       1.5G      1.002      1.076     0.9838        110        640: 7% ╸─────────── 1/13 2.4it/s 0.3s<5.0s[K       8/10       1.5G      1.011      1.086      1.024         77        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       8/10       1.5G      1.013      1.012      1.058         61        640: 23% ━━╸───────── 3/13 5.4it/s 0.5s<1.8s[K       8/10       1.5G     0.9725     0.9913      1.049         78        640: 30% ━━━╸──────── 4/13 6.1it/s 0.6s<1.5s[K       8/10       1.5G     0.9747     0.9743       1.05         85        640: 38% ━━━━╸─────── 5/13 6.6it/s 0.8s<1.2s[K       8/10       1.5G     0.9617     0.9387      1.032         49        640: 46% ━━━━━╸────── 6/13 7.1it/s 0.9s<1.0s[K       8/10       1.5G     0.9696     0.9347      1.036         63        640: 53% ━━━━━━────── 7/13 7.4it/s 1.0s<0.8s[K       8/10       1.5G     0.9483     0.9113      1.039         48        640: 61% ━━━━━━━───── 8/13 7.6it/s 1.1s<0.7s[K       8/10       1.5G     0.9165     0.8737      1.036         30        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.3s<0.5s[K       8/10       1.5G     0.8929     0.8703      1.022         45        640: 76% ━━━━━━━━━─── 10/13 7.8it/s 1.4s<0.4s[K       8/10       1.5G     0.8885      0.868      1.018         43        640: 84% ━━━━━━━━━━── 11/13 7.8it/s 1.5s<0.3s[K       8/10       1.5G      0.906     0.8841      1.021         49        640: 92% ━━━━━━━━━━━─ 12/13 7.9it/s 1.6s<0.1s[K       8/10       1.5G      0.906     0.8841      1.021         49        640: 100% ━━━━━━━━━━━━ 13/13 8.0it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.6it/s 0.3s
+                   all         26        139      0.736      0.539      0.613      0.492
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K       9/10       1.5G     0.6717     0.7104     0.9847         55        640: 0% ──────────── 0/13  0.1s[K       9/10       1.5G     0.7635     0.7588     0.9748         92        640: 7% ╸─────────── 1/13 2.5it/s 0.2s<4.8s[K       9/10       1.5G     0.7385      0.689     0.9948         33        640: 15% ━╸────────── 2/13 4.2it/s 0.4s<2.6s[K       9/10       1.5G     0.7852      0.743     0.9977         91        640: 23% ━━╸───────── 3/13 5.5it/s 0.5s<1.8s[K       9/10       1.5G     0.7756     0.7596     0.9887         63        640: 30% ━━━╸──────── 4/13 6.2it/s 0.6s<1.4s[K       9/10       1.5G      0.835     0.7993      1.012         79        640: 38% ━━━━╸─────── 5/13 6.7it/s 0.7s<1.2s[K       9/10       1.5G     0.8589     0.7887      1.003         71        640: 46% ━━━━━╸────── 6/13 7.3it/s 0.9s<1.0s[K       9/10       1.5G      0.854     0.7798     0.9874         42        640: 53% ━━━━━━────── 7/13 7.4it/s 1.0s<0.8s[K       9/10       1.5G     0.8821     0.8154     0.9942         98        640: 61% ━━━━━━━───── 8/13 7.6it/s 1.1s<0.7s[K       9/10       1.5G     0.8787     0.8137     0.9968         44        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.2s<0.5s[K       9/10       1.5G     0.8751     0.8045     0.9984         25        640: 76% ━━━━━━━━━─── 10/13 7.7it/s 1.4s<0.4s[K       9/10       1.5G     0.8729     0.8059     0.9968         59        640: 84% ━━━━━━━━━━── 11/13 7.7it/s 1.5s<0.3s[K       9/10       1.5G     0.8603     0.7945     0.9947         35        640: 92% ━━━━━━━━━━━─ 12/13 8.0it/s 1.6s<0.1s[K       9/10       1.5G     0.8603     0.7945     0.9947         35        640: 100% ━━━━━━━━━━━━ 13/13 8.1it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.7it/s 0.3s
+                   all         26        139      0.684       0.55       0.63      0.508
+
+      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size
+[K      10/10       1.5G     0.5407     0.5397     0.9297         39        640: 0% ──────────── 0/13  0.1s[K      10/10       1.5G     0.6242     0.6464       0.93         80        640: 7% ╸─────────── 1/13 2.5it/s 0.2s<4.8s[K      10/10       1.5G     0.6685     0.7011     0.9457         51        640: 15% ━╸────────── 2/13 4.1it/s 0.4s<2.7s[K      10/10       1.5G     0.7016     0.6776     0.9491         68        640: 23% ━━╸───────── 3/13 5.3it/s 0.5s<1.9s[K      10/10       1.5G     0.7263      0.696     0.9654         58        640: 30% ━━━╸──────── 4/13 6.1it/s 0.6s<1.5s[K      10/10       1.5G     0.7634     0.7035     0.9531         85        640: 38% ━━━━╸─────── 5/13 6.7it/s 0.7s<1.2s[K      10/10       1.5G     0.7786     0.7264     0.9592        113        640: 46% ━━━━━╸────── 6/13 7.2it/s 0.9s<1.0s[K      10/10       1.5G     0.7782      0.712     0.9645         49        640: 53% ━━━━━━────── 7/13 7.5it/s 1.0s<0.8s[K      10/10       1.5G     0.8306     0.7648     0.9822         84        640: 61% ━━━━━━━───── 8/13 7.6it/s 1.1s<0.7s[K      10/10       1.5G     0.8238     0.7558     0.9923         39        640: 69% ━━━━━━━━──── 9/13 7.7it/s 1.2s<0.5s[K      10/10       1.5G     0.8177     0.7402     0.9897         26        640: 76% ━━━━━━━━━─── 10/13 7.6it/s 1.4s<0.4s[K      10/10       1.5G     0.8022     0.7274     0.9828         42        640: 84% ━━━━━━━━━━── 11/13 7.6it/s 1.5s<0.3s[K      10/10       1.5G     0.8424     0.7913     0.9767         53        640: 92% ━━━━━━━━━━━─ 12/13 8.1it/s 1.6s<0.1s[K      10/10       1.5G     0.8424     0.7913     0.9767         53        640: 100% ━━━━━━━━━━━━ 13/13 8.1it/s 1.6s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.0it/s 0.2s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 7.4it/s 0.3s
+                   all         26        139      0.642      0.582      0.634       0.51
+
+10 epochs completed in 0.008 hours.
+Optimizer stripped from C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\greedy\weights\last.pt, 5.5MB
+Optimizer stripped from C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\greedy\weights\best.pt, 5.5MB
+
+Validating C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\greedy\weights\best.pt...
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,571,976 parameters, 0 gradients, 6.2 GFLOPs
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 1.8s/it 0.5s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 1.9it/s 1.0s
+                   all         26        139      0.706      0.622      0.715      0.593
+                person         13         32      0.899      0.656      0.727      0.523
+               bicycle          1          2          1          0          0          0
+                   car          2          4      0.296       0.25      0.245      0.147
+            motorcycle          1          2      0.525          1      0.995      0.795
+                   bus          1          1      0.454          1      0.995      0.895
+                 train          1          1      0.973          1      0.995      0.895
+             stop sign          1          1      0.599          1      0.995      0.796
+                  bird          1          8      0.989          1      0.995      0.671
+                   cat          1          1      0.584          1      0.995      0.995
+                   dog          1          1      0.423          1      0.995      0.895
+              elephant          1          7          1      0.952      0.995      0.745
+                 zebra          1          1      0.557          1      0.995      0.995
+               giraffe          2          5      0.733          1      0.995       0.79
+              umbrella          1          1      0.562          1      0.995      0.895
+               frisbee          3          3      0.534      0.667      0.665      0.566
+           sports ball          2          2          1          0          0          0
+          baseball bat          1          1          1          0          0          0
+        baseball glove          1          1          1          0      0.995      0.895
+            skateboard          1          3          1          0      0.335      0.235
+         tennis racket          2          2      0.393        0.5      0.495      0.396
+                bottle          2          3      0.532      0.667      0.555      0.511
+                   cup          2          4      0.686        0.5      0.589      0.476
+                  fork          1          1          1          0          0          0
+                 knife          1          5       0.89          1      0.995      0.557
+                 spoon          2          2          1      0.846      0.995      0.746
+                  bowl          2          2      0.491      0.973      0.745      0.646
+                banana          1          1      0.395          1      0.995      0.895
+              sandwich          1          1          1          0      0.995      0.995
+              broccoli          2          3      0.531      0.333       0.35      0.303
+                carrot          1         10          1      0.193      0.726      0.565
+                 pizza          1          1      0.551          1      0.995      0.995
+                 chair          1          1      0.468          1      0.995      0.497
+                   bed          1          1       0.46          1      0.497      0.348
+          dining table          3          3      0.261      0.333      0.533      0.432
+                    tv          1          1      0.525          1      0.995      0.895
+                 mouse          1          1          1          0          0          0
+             microwave          1          1      0.567          1      0.995      0.895
+                  oven          1          1      0.372          1      0.995      0.895
+                  book          2         16          1          0      0.259      0.109
+            teddy bear          1          2          1          0      0.995      0.846
+Speed: 0.2ms preprocess, 32.7ms inference, 0.0ms loss, 1.4ms postprocess per image
+Verified: finite training losses, unchanged BN state and pruned widths.
+Ultralytics 8.4.142  Python-3.13.14 torch-2.11.0+cu128 CUDA:0 (NVIDIA GeForce RTX 5060 Ti, 16311MiB)
+YOLO11n summary (fused): 100 layers, 2,571,976 parameters, 0 gradients, 6.2 GFLOPs
+[34m[1mval: [0mFast image access  (ping: 0.00.0 ms, read: 311.695.3 MB/s, size: 47.0 KB)
+[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 9.9Mit/s 0.0s
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 4.0it/s 0.1s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 15.3it/s 0.3s
+                   all         26        139      0.663      0.656      0.716      0.596
+Speed: 0.5ms preprocess, 2.8ms inference, 0.0ms loss, 1.3ms postprocess per image
+FINETUNED greedy: mAP=0.596241
+COMPLETE C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152
