@@ -1,0 +1,36 @@
+{
+  "started_at": "2026-09-08T15:39:00.605779+08:00",
+  "finished_at": "2026-09-08T15:39:06.967113+08:00",
+  "total_elapsed_seconds": 6.3613418999593705,
+  "configuration": {
+    "weights": "runs/train/experiment02_coco128/weights/best.pt",
+    "data": "configs/coco128_split.yaml",
+    "sensitivity": "reports/experiment03_sensitivity.csv",
+    "profiles": [
+      "light",
+      "balanced",
+      "strong"
+    ],
+    "ratio": 0.125,
+    "channel_multiple": 8,
+    "device": "0",
+    "output_dir": "runs/prune/experiment04_independent",
+    "results": "reports/experiment04_independent_comparison.csv",
+    "run_info": "runs/prune/experiment04_independent/run_info.json"
+  },
+  "environment": {
+    "python": "3.13.14",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.11.0+cu128",
+    "torch_pruning": "1.6.0",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti"
+  },
+  "baseline": {
+    "parameters": 2624080,
+    "gmacs": 3.2758272,
+    "mAP50": 0.7760911174721754,
+    "mAP50_95": 0.6232067576989172,
+    "inference_ms_per_image": 7.332542302230229
+  }
+}

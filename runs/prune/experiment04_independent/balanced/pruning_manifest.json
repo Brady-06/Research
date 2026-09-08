@@ -1,0 +1,50 @@
+[
+  {
+    "layer": "model.8.m.0.m.0.cv2.conv",
+    "before_out_channels": 64,
+    "after_out_channels": 56,
+    "removed": 8,
+    "sensitivity_drop": -0.01607886777234213,
+    "elapsed_seconds": 0.06094210012815893
+  },
+  {
+    "layer": "model.17.conv",
+    "before_out_channels": 64,
+    "after_out_channels": 56,
+    "removed": 8,
+    "sensitivity_drop": -0.009292728188128652,
+    "elapsed_seconds": 0.05634270003065467
+  },
+  {
+    "layer": "model.5.conv",
+    "before_out_channels": 128,
+    "after_out_channels": 112,
+    "removed": 16,
+    "sensitivity_drop": -0.008648875902321884,
+    "elapsed_seconds": 0.05894379992969334
+  },
+  {
+    "layer": "model.8.m.0.cv2.conv",
+    "before_out_channels": 64,
+    "after_out_channels": 56,
+    "removed": 8,
+    "sensitivity_drop": -0.003031846088622725,
+    "elapsed_seconds": 0.04747950006276369
+  },
+  {
+    "layer": "model.8.m.0.m.1.cv1.conv",
+    "before_out_channels": 64,
+    "after_out_channels": 56,
+    "removed": 8,
+    "sensitivity_drop": -0.002036151066520664,
+    "elapsed_seconds": 0.05138120008632541
+  },
+  {
+    "layer": "model.22.m.0.cv2.conv",
+    "before_out_channels": 64,
+    "after_out_channels": 56,
+    "removed": 8,
+    "sensitivity_drop": 7.976699018086286e-06,
+    "elapsed_seconds": 0.06282639992423356
+  }
+]

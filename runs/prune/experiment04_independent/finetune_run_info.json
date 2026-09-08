@@ -1,0 +1,61 @@
+{
+  "started_at": "2026-09-08T15:46:57.909750+08:00",
+  "finished_at": "2026-09-08T15:49:34.984606+08:00",
+  "total_elapsed_seconds": 157.07486600009724,
+  "epochs_each": 10,
+  "profiles": [
+    "light",
+    "balanced",
+    "strong"
+  ],
+  "results": [
+    {
+      "profile": "light",
+      "epochs": 10,
+      "parameters": "2577392",
+      "parameter_reduction": "0.017792140483521846",
+      "gmac_reduction": "0.015283834263296936",
+      "raw_mAP50_95": "0.5317509493148185",
+      "finetuned_mAP50": 0.7544655532843196,
+      "finetuned_mAP50_95": 0.5951649854366322,
+      "mAP50_95_drop_vs_baseline": 0.028041772262284992,
+      "recovery_vs_raw": 0.06341403612181373,
+      "inference_ms_per_image": 12.660738456851014,
+      "elapsed_seconds": 78.37197780003771,
+      "peak_gpu_memory_mb": 1298.864128,
+      "best_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment04_independent\\finetune\\light\\weights\\best.pt"
+    },
+    {
+      "profile": "balanced",
+      "epochs": 10,
+      "parameters": "2565184",
+      "parameter_reduction": "0.02244443766958326",
+      "gmac_reduction": "0.016774511183007434",
+      "raw_mAP50_95": "0.5231429429653442",
+      "finetuned_mAP50": 0.7404868499813657,
+      "finetuned_mAP50_95": 0.5614931494082696,
+      "mAP50_95_drop_vs_baseline": 0.06171360829064765,
+      "recovery_vs_raw": 0.038350206442925305,
+      "inference_ms_per_image": 3.0391230695666027,
+      "elapsed_seconds": 34.23511469992809,
+      "peak_gpu_memory_mb": 1363.411456,
+      "best_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment04_independent\\finetune\\balanced\\weights\\best.pt"
+    },
+    {
+      "profile": "strong",
+      "epochs": 10,
+      "parameters": "2514744",
+      "parameter_reduction": "0.04166641260937165",
+      "gmac_reduction": "0.04066636970350568",
+      "raw_mAP50_95": "0.5033008286168248",
+      "finetuned_mAP50": 0.7364294320169525,
+      "finetuned_mAP50_95": 0.5720409443930461,
+      "mAP50_95_drop_vs_baseline": 0.05116581330587111,
+      "recovery_vs_raw": 0.0687401157762213,
+      "inference_ms_per_image": 3.342273080936418,
+      "elapsed_seconds": 44.44169089989737,
+      "peak_gpu_memory_mb": 1352.950784,
+      "best_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment04_independent\\finetune\\strong\\weights\\best.pt"
+    }
+  ]
+}
