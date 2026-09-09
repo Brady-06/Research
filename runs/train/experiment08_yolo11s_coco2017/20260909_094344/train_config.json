@@ -1,0 +1,13 @@
+{
+  "model": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\weights\\yolo11s.pt",
+  "data": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\configs\\coco2017.yaml",
+  "epochs": 100,
+  "imgsz": 640,
+  "batch": 32,
+  "device": 0,
+  "workers": 0,
+  "seed": 42,
+  "deterministic": true,
+  "pretrained": true,
+  "patience": 30
+}

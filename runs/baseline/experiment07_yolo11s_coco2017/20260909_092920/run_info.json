@@ -1,0 +1,69 @@
+{
+  "started_at": "2026-09-09T09:29:20.118643+08:00",
+  "status": "complete",
+  "configuration": {
+    "device": "0",
+    "batch": 32
+  },
+  "finished_at": "2026-09-09T09:31:38.024158+08:00",
+  "elapsed_seconds": 137.90514479996637,
+  "download_and_validation_seconds": 137.83260900015011,
+  "model": "yolo11s",
+  "source": "official COCO-pretrained yolo11s.pt",
+  "source_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\weights\\yolo11s.pt",
+  "source_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "baseline_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\baseline\\experiment07_yolo11s_coco2017\\20260909_092920\\weights\\baseline.pt",
+  "baseline_sha256": "85a76fe86dd8afe384648546b56a7a78580c7cb7b404fc595f97969322d502d5",
+  "config": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\configs\\coco2017.yaml",
+  "config_sha256": "6f65a337de7aa94db3ae597be4f54b6233df5f0bfb727457e2921e423de23c54",
+  "dataset": {
+    "root": "C:\\Users\\22565\\datasets\\coco",
+    "train_images": 118287,
+    "val_images": 5000,
+    "train_directory_images": 118287,
+    "val_directory_images": 5000
+  },
+  "metrics": {
+    "map50": 0.6318536037228173,
+    "map50_95": 0.4634761394556849,
+    "precision": 0.7006155103407556,
+    "recall": 0.5759368532735477
+  },
+  "speed_ms_per_image": {
+    "preprocess": 0.28965384024195373,
+    "inference": 2.9382071405649186,
+    "loss": 0.00036894017830491066,
+    "postprocess": 1.3292960200924426
+  },
+  "parameters": 9458752,
+  "gmacs": 10.7990592,
+  "benchmark": {
+    "parameters": 9458752,
+    "gmacs": 10.7990592,
+    "round_medians_ms": [
+      11.65724802017212,
+      11.922927856445312,
+      11.305808067321777,
+      11.287888050079346,
+      10.637856006622314
+    ],
+    "latency_median_ms": 11.458047866821289,
+    "latency_p90_ms": 12.38372802734375,
+    "sample_count": 250,
+    "batch": 1,
+    "imgsz": 640,
+    "precision": "float32",
+    "fused": true,
+    "scope": "network_forward_excluding_preprocess_and_nms"
+  },
+  "disk_free_before_bytes": 92199641088,
+  "disk_free_after_bytes": 83007324160,
+  "environment": {
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.142",
+    "torch-pruning": "1.6.1"
+  },
+  "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 5060 Ti"
+}

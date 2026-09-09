@@ -1,0 +1,5 @@
+RUN_DIR C:\Users\22565\OneDrive\Desktop\YOLO\runs\train\experiment08_yolo11s_coco2017\20260909_095040
+{"model": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\weights\\yolo11s.pt", "data": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\configs\\coco2017.yaml", "epochs": 30, "imgsz": 640, "batch": 64, "device": 0, "workers": 2, "seed": 42, "deterministic": true, "pretrained": true, "patience": 10}
+[K[34m[1mtrain: [0mScanning C:\Users\22565\datasets\coco\labels\train2017.cache... 117266 images, 1021 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 118287/118287 35.4Git/s 0.0s
+[K[34m[1mval: [0mScanning C:\Users\22565\datasets\coco\labels\val2017.cache... 4952 images, 48 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 5000/5000 998.6Mit/s 0.0s
+[K       1/30      15.8G     0.9597     0.9172      1.106        827        640: 0% ──────────── 0/1849  1:14[K       1/30      15.8G     0.9693     0.9268       1.12        750        640: 0% ──────────── 1/1849 337.3s/it 2:55<173:07:23
