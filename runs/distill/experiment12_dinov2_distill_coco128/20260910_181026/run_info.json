@@ -1,0 +1,70 @@
+{
+  "started_at": "2026-09-10T18:10:26+08:00",
+  "status": "complete",
+  "elapsed_seconds": 161.00152170000365,
+  "configuration": {
+    "student": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\greedy\\weights\\best.pt",
+    "data": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\configs\\coco128_split.yaml",
+    "teacher": "dinov2_vits14",
+    "feature": "YOLO Detect P4 (stride 16)",
+    "epochs": 30,
+    "batch": 8,
+    "imgsz": 640,
+    "optimizer": "AdamW",
+    "lr0": 0.0001,
+    "weight": 0.5,
+    "warmup_epochs": 2,
+    "dino_size": 644,
+    "seed": 42,
+    "device": "0",
+    "control_best": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\distill\\experiment12_dinov2_distill_coco128\\20260910_181026\\finetune\\control\\weights\\best.pt",
+    "distill_best": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\distill\\experiment12_dinov2_distill_coco128\\20260910_181026\\finetune\\distill\\weights\\best.pt",
+    "training_wrapper": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\distill\\experiment12_dinov2_distill_coco128\\20260910_181026\\finetune\\distill\\weights\\best_training_wrapper.pt"
+  },
+  "results": {
+    "source": {
+      "map50": 0.7156305546062125,
+      "map50_95": 0.5962410378297743,
+      "inference_ms": 9.878096153373077
+    },
+    "control": {
+      "map50": 0.7156305546062125,
+      "map50_95": 0.5962410378297743,
+      "inference_ms": 3.246938461066188
+    },
+    "distill": {
+      "map50": 0.7156305546062125,
+      "map50_95": 0.5962410378297743,
+      "inference_ms": 4.088453846074676
+    },
+    "control_last": {
+      "map50": 0.6358867127419152,
+      "map50_95": 0.4828381844522434,
+      "inference_ms": 4.637788461807828
+    },
+    "distill_last": {
+      "map50": 0.6278667893809854,
+      "map50_95": 0.5040135875484721,
+      "inference_ms": 4.622476922612315
+    }
+  },
+  "post_run_verification": {
+    "best_common_tensors_changed_vs_source": 0,
+    "control_last_tensors_changed_vs_source": 90,
+    "distill_last_tensors_changed_vs_source": 90,
+    "all_checked_weights_finite": true,
+    "interpretation": "Training updated the models, but no trained epoch exceeded the starting checkpoint; best.pt therefore remains tensor-identical to the source at checkpoint precision."
+  },
+  "sources": {
+    "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\greedy\\weights\\best.pt": "90c14c0f950b130f736a9062e7e383b5678a184a944febfa03c83eb6d58436eb",
+    "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\configs\\coco128_split.yaml": "86b2471cd5bd126688349c865b3b57ea92bde429ce1d525eb55efe7aa531f929",
+    "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\scripts\\distill_dinov2_coco128.py": "b1725a7b54076c6a8c1896a8b2cfa2f8536748688343a90501defbef7e6fd6c8"
+  },
+  "environment": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.142",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti"
+  }
+}

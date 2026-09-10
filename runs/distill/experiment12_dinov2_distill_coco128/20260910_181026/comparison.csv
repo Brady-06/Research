@@ -1,0 +1,6 @@
+﻿label,map50,map50_95,inference_ms,weights
+source,0.7156305546062125,0.5962410378297743,9.878096153373077,C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\greedy\weights\best.pt
+control,0.7156305546062125,0.5962410378297743,3.246938461066188,C:\Users\22565\OneDrive\Desktop\YOLO\runs\distill\experiment12_dinov2_distill_coco128\20260910_181026\finetune\control\weights\best.pt
+distill,0.7156305546062125,0.5962410378297743,4.088453846074676,C:\Users\22565\OneDrive\Desktop\YOLO\runs\distill\experiment12_dinov2_distill_coco128\20260910_181026\finetune\distill\weights\best.pt
+control_last,0.6358867127419152,0.4828381844522434,4.637788461807828,C:\Users\22565\OneDrive\Desktop\YOLO\runs\distill\experiment12_dinov2_distill_coco128\20260910_181026\finetune\control\weights\last.pt
+distill_last,0.6278667893809854,0.5040135875484721,4.622476922612315,C:\Users\22565\OneDrive\Desktop\YOLO\runs\distill\experiment12_dinov2_distill_coco128\20260910_181026\finetune\distill\weights\last.pt
