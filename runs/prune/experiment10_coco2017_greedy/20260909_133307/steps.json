@@ -1,0 +1,2594 @@
+[
+  {
+    "step": 1,
+    "layer": "model.22.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 128,
+    "after_channels": 112,
+    "indices": [
+      90,
+      117,
+      106,
+      22,
+      86,
+      40,
+      46,
+      92,
+      79,
+      100,
+      94,
+      53,
+      14,
+      59,
+      101,
+      2
+    ],
+    "dependencies": [
+      {
+        "layer": "model.22.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          90,
+          117,
+          106,
+          22,
+          86,
+          40,
+          46,
+          92,
+          79,
+          100,
+          94,
+          53,
+          14,
+          59,
+          101,
+          2
+        ]
+      },
+      {
+        "layer": "model.22.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          218,
+          245,
+          234,
+          150,
+          214,
+          168,
+          174,
+          220,
+          207,
+          228,
+          222,
+          181,
+          142,
+          187,
+          229,
+          130
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.22.m.0.cv2.conv.weight": {
+        "before": [
+          128,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          112,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.22.m.0.cv2.bn.weight": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.22.m.0.cv2.bn.bias": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_mean": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_var": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.22.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          240,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9450528,
+    "gmacs": 10.7957696,
+    "map50": 0.6099190065948003,
+    "map50_95": 0.44501571346971674,
+    "validation_inference_ms": 0.7638274153992825,
+    "step_map_drop": -9.764914391197088e-06,
+    "step_compute_saved": 0.00030461912830336625,
+    "total_compute_saved": 0.0003046191283033739,
+    "score": -0.03205614317651233,
+    "parent_state_sha256": "c5da32acdd02d3a38830d6172ddcd7d6f52a27094873555157c0bb46b2234bef"
+  },
+  {
+    "step": 2,
+    "layer": "model.22.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 112,
+    "after_channels": 96,
+    "indices": [
+      104,
+      67,
+      82,
+      14,
+      109,
+      111,
+      31,
+      4,
+      13,
+      43,
+      96,
+      54,
+      95,
+      22,
+      63,
+      98
+    ],
+    "dependencies": [
+      {
+        "layer": "model.22.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          104,
+          67,
+          82,
+          14,
+          109,
+          111,
+          31,
+          4,
+          13,
+          43,
+          96,
+          54,
+          95,
+          22,
+          63,
+          98
+        ]
+      },
+      {
+        "layer": "model.22.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          232,
+          195,
+          210,
+          142,
+          237,
+          239,
+          159,
+          132,
+          141,
+          171,
+          224,
+          182,
+          223,
+          150,
+          191,
+          226
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.22.m.0.cv2.conv.weight": {
+        "before": [
+          112,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          96,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.22.m.0.cv2.bn.weight": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.22.m.0.cv2.bn.bias": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_mean": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_var": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.22.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          240,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          224,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9442304,
+    "gmacs": 10.79248,
+    "map50": 0.6099274335597145,
+    "map50_95": 0.4449256351577895,
+    "validation_inference_ms": 0.7633701677972567,
+    "step_map_drop": 9.007831192725524e-05,
+    "step_compute_saved": 0.00030461912830336625,
+    "total_compute_saved": 0.0006092382566067478,
+    "score": 0.29570799584702184,
+    "parent_state_sha256": "99e8a3c7d8e6784428338a920891ad215df8eb630a29ddf3fcf45372c0392652"
+  },
+  {
+    "step": 3,
+    "layer": "model.22.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 96,
+    "after_channels": 80,
+    "indices": [
+      89,
+      67,
+      51,
+      17,
+      92,
+      44,
+      86,
+      75,
+      5,
+      4,
+      65,
+      16,
+      53,
+      18,
+      12,
+      73
+    ],
+    "dependencies": [
+      {
+        "layer": "model.22.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          89,
+          67,
+          51,
+          17,
+          92,
+          44,
+          86,
+          75,
+          5,
+          4,
+          65,
+          16,
+          53,
+          18,
+          12,
+          73
+        ]
+      },
+      {
+        "layer": "model.22.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          217,
+          195,
+          179,
+          145,
+          220,
+          172,
+          214,
+          203,
+          133,
+          132,
+          193,
+          144,
+          181,
+          146,
+          140,
+          201
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.22.m.0.cv2.conv.weight": {
+        "before": [
+          96,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          80,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.22.m.0.cv2.bn.weight": {
+        "before": [
+          96
+        ],
+        "after": [
+          80
+        ]
+      },
+      "model.22.m.0.cv2.bn.bias": {
+        "before": [
+          96
+        ],
+        "after": [
+          80
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_mean": {
+        "before": [
+          96
+        ],
+        "after": [
+          80
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_var": {
+        "before": [
+          96
+        ],
+        "after": [
+          80
+        ]
+      },
+      "model.22.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          224,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          208,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9434080,
+    "gmacs": 10.7891904,
+    "map50": 0.6098730473753469,
+    "map50_95": 0.44479058767881996,
+    "validation_inference_ms": 0.7621774316001393,
+    "step_map_drop": 0.00013504747896952995,
+    "step_compute_saved": 0.0003046191283032017,
+    "total_compute_saved": 0.0009138573849098997,
+    "score": 0.4433322349839793,
+    "parent_state_sha256": "ec457f27115fcca3f5cd7421b43e1d04becae0c89875218b8b82d2f00aa719a2"
+  },
+  {
+    "step": 4,
+    "layer": "model.22.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 80,
+    "after_channels": 72,
+    "indices": [
+      23,
+      26,
+      67,
+      44,
+      32,
+      66,
+      4,
+      59
+    ],
+    "dependencies": [
+      {
+        "layer": "model.22.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          23,
+          26,
+          67,
+          44,
+          32,
+          66,
+          4,
+          59
+        ]
+      },
+      {
+        "layer": "model.22.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          151,
+          154,
+          195,
+          172,
+          160,
+          194,
+          132,
+          187
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.22.m.0.cv2.conv.weight": {
+        "before": [
+          80,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          72,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.22.m.0.cv2.bn.weight": {
+        "before": [
+          80
+        ],
+        "after": [
+          72
+        ]
+      },
+      "model.22.m.0.cv2.bn.bias": {
+        "before": [
+          80
+        ],
+        "after": [
+          72
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_mean": {
+        "before": [
+          80
+        ],
+        "after": [
+          72
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_var": {
+        "before": [
+          80
+        ],
+        "after": [
+          72
+        ]
+      },
+      "model.22.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          208,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          200,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9429968,
+    "gmacs": 10.7875456,
+    "map50": 0.6097881040020007,
+    "map50_95": 0.4447468525826461,
+    "validation_inference_ms": 0.7639172084011079,
+    "step_map_drop": 4.3735096173835863e-05,
+    "step_compute_saved": 0.00015230956415176536,
+    "total_compute_saved": 0.0010661669490616976,
+    "score": 0.28714609235081934,
+    "parent_state_sha256": "cb6b4abcd353f204be7f4831c28171197a8947eb4b57fe83dfdd9b7b56a9918d"
+  },
+  {
+    "step": 5,
+    "layer": "model.22.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 72,
+    "after_channels": 64,
+    "indices": [
+      22,
+      3,
+      6,
+      71,
+      44,
+      65,
+      25,
+      5
+    ],
+    "dependencies": [
+      {
+        "layer": "model.22.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          22,
+          3,
+          6,
+          71,
+          44,
+          65,
+          25,
+          5
+        ]
+      },
+      {
+        "layer": "model.22.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          150,
+          131,
+          134,
+          199,
+          172,
+          193,
+          153,
+          133
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.22.m.0.cv2.conv.weight": {
+        "before": [
+          72,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          64,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.22.m.0.cv2.bn.weight": {
+        "before": [
+          72
+        ],
+        "after": [
+          64
+        ]
+      },
+      "model.22.m.0.cv2.bn.bias": {
+        "before": [
+          72
+        ],
+        "after": [
+          64
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_mean": {
+        "before": [
+          72
+        ],
+        "after": [
+          64
+        ]
+      },
+      "model.22.m.0.cv2.bn.running_var": {
+        "before": [
+          72
+        ],
+        "after": [
+          64
+        ]
+      },
+      "model.22.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          200,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          192,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9425856,
+    "gmacs": 10.7859008,
+    "map50": 0.6098844203503201,
+    "map50_95": 0.44475269879839646,
+    "validation_inference_ms": 0.7630873302005057,
+    "step_map_drop": -5.846215750338057e-06,
+    "step_compute_saved": 0.00015230956415160086,
+    "total_compute_saved": 0.0012184765132132735,
+    "score": -0.03838377309332357,
+    "parent_state_sha256": "8f2f7b6eb4a2765fc515ce99c98c071330fdfe1fe7ab09c410f63fffb914530f"
+  },
+  {
+    "step": 6,
+    "layer": "model.8.m.0.m.0.cv1.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 128,
+    "after_channels": 112,
+    "indices": [
+      1,
+      83,
+      98,
+      57,
+      70,
+      23,
+      95,
+      31,
+      17,
+      84,
+      25,
+      64,
+      89,
+      18,
+      53,
+      37
+    ],
+    "dependencies": [
+      {
+        "layer": "model.8.m.0.m.0.cv1.conv",
+        "direction": "out",
+        "indices": [
+          1,
+          83,
+          98,
+          57,
+          70,
+          23,
+          95,
+          31,
+          17,
+          84,
+          25,
+          64,
+          89,
+          18,
+          53,
+          37
+        ]
+      },
+      {
+        "layer": "model.8.m.0.m.0.cv2.conv",
+        "direction": "in",
+        "indices": [
+          1,
+          83,
+          98,
+          57,
+          70,
+          23,
+          95,
+          31,
+          17,
+          84,
+          25,
+          64,
+          89,
+          18,
+          53,
+          37
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.8.m.0.m.0.cv1.conv.weight": {
+        "before": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "after": [
+          112,
+          128,
+          3,
+          3
+        ]
+      },
+      "model.8.m.0.m.0.cv1.bn.weight": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.8.m.0.m.0.cv1.bn.bias": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.8.m.0.m.0.cv1.bn.running_mean": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.8.m.0.m.0.cv1.bn.running_var": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.8.m.0.m.0.cv2.conv.weight": {
+        "before": [
+          128,
+          128,
+          3,
+          3
+        ],
+        "after": [
+          128,
+          112,
+          3,
+          3
+        ]
+      }
+    },
+    "parameters": 9388960,
+    "gmacs": 10.7711424,
+    "map50": 0.6091291074665126,
+    "map50_95": 0.443786174866376,
+    "validation_inference_ms": 0.7635403959990071,
+    "step_map_drop": 0.0009665239320204577,
+    "step_compute_saved": 0.0013666375678355238,
+    "total_compute_saved": 0.0025851140810487783,
+    "score": 0.7072276913558254,
+    "parent_state_sha256": "263be1bbbdf94d31a1c3a1f3e4a06ab8c6e3eea63331b7c4bc1e91b5c791ccc5"
+  },
+  {
+    "step": 7,
+    "layer": "model.8.m.0.m.0.cv1.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 112,
+    "after_channels": 96,
+    "indices": [
+      28,
+      101,
+      69,
+      43,
+      82,
+      13,
+      4,
+      32,
+      75,
+      49,
+      80,
+      108,
+      92,
+      91,
+      77,
+      72
+    ],
+    "dependencies": [
+      {
+        "layer": "model.8.m.0.m.0.cv1.conv",
+        "direction": "out",
+        "indices": [
+          28,
+          101,
+          69,
+          43,
+          82,
+          13,
+          4,
+          32,
+          75,
+          49,
+          80,
+          108,
+          92,
+          91,
+          77,
+          72
+        ]
+      },
+      {
+        "layer": "model.8.m.0.m.0.cv2.conv",
+        "direction": "in",
+        "indices": [
+          28,
+          101,
+          69,
+          43,
+          82,
+          13,
+          4,
+          32,
+          75,
+          49,
+          80,
+          108,
+          92,
+          91,
+          77,
+          72
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.8.m.0.m.0.cv1.conv.weight": {
+        "before": [
+          112,
+          128,
+          3,
+          3
+        ],
+        "after": [
+          96,
+          128,
+          3,
+          3
+        ]
+      },
+      "model.8.m.0.m.0.cv1.bn.weight": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.8.m.0.m.0.cv1.bn.bias": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.8.m.0.m.0.cv1.bn.running_mean": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.8.m.0.m.0.cv1.bn.running_var": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.8.m.0.m.0.cv2.conv.weight": {
+        "before": [
+          128,
+          112,
+          3,
+          3
+        ],
+        "after": [
+          128,
+          96,
+          3,
+          3
+        ]
+      }
+    },
+    "parameters": 9352064,
+    "gmacs": 10.756384,
+    "map50": 0.6087143565308251,
+    "map50_95": 0.44416180696278557,
+    "validation_inference_ms": 0.7620851671999844,
+    "step_map_drop": -0.00037563209640956163,
+    "step_compute_saved": 0.0013666375678355238,
+    "total_compute_saved": 0.003951751648884394,
+    "score": -0.27485860571247617,
+    "parent_state_sha256": "92452eecad58aefd1314699f591fe1d3fcf80ff780a1fd25d3cbd9b16926ff55"
+  },
+  {
+    "step": 8,
+    "layer": "model.6.m.0.m.1.cv1.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 64,
+    "after_channels": 56,
+    "indices": [
+      22,
+      6,
+      12,
+      17,
+      32,
+      60,
+      13,
+      38
+    ],
+    "dependencies": [
+      {
+        "layer": "model.6.m.0.m.1.cv1.conv",
+        "direction": "out",
+        "indices": [
+          22,
+          6,
+          12,
+          17,
+          32,
+          60,
+          13,
+          38
+        ]
+      },
+      {
+        "layer": "model.6.m.0.m.1.cv2.conv",
+        "direction": "in",
+        "indices": [
+          22,
+          6,
+          12,
+          17,
+          32,
+          60,
+          13,
+          38
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.6.m.0.m.1.cv1.conv.weight": {
+        "before": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "after": [
+          56,
+          64,
+          3,
+          3
+        ]
+      },
+      "model.6.m.0.m.1.cv1.bn.weight": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.m.1.cv1.bn.bias": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.m.1.cv1.bn.running_mean": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.m.1.cv1.bn.running_var": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.m.1.cv2.conv.weight": {
+        "before": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "after": [
+          64,
+          56,
+          3,
+          3
+        ]
+      }
+    },
+    "parameters": 9342832,
+    "gmacs": 10.7416128,
+    "map50": 0.6069446988571654,
+    "map50_95": 0.44244124500724014,
+    "validation_inference_ms": 0.7608258659987769,
+    "step_map_drop": 0.00172056195554543,
+    "step_compute_saved": 0.0013678228562725358,
+    "total_compute_saved": 0.005319574505156854,
+    "score": 1.2578836123810258,
+    "parent_state_sha256": "89fa3062d92520954903af1f4613f03526464530fc9e74d850799201ea1f751a"
+  },
+  {
+    "step": 9,
+    "layer": "model.8.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 128,
+    "after_channels": 112,
+    "indices": [
+      48,
+      39,
+      56,
+      108,
+      107,
+      120,
+      29,
+      103,
+      8,
+      101,
+      115,
+      79,
+      117,
+      27,
+      55,
+      124
+    ],
+    "dependencies": [
+      {
+        "layer": "model.8.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          48,
+          39,
+          56,
+          108,
+          107,
+          120,
+          29,
+          103,
+          8,
+          101,
+          115,
+          79,
+          117,
+          27,
+          55,
+          124
+        ]
+      },
+      {
+        "layer": "model.8.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          176,
+          167,
+          184,
+          236,
+          235,
+          248,
+          157,
+          231,
+          136,
+          229,
+          243,
+          207,
+          245,
+          155,
+          183,
+          252
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.8.m.0.cv2.conv.weight": {
+        "before": [
+          128,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          112,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.8.m.0.cv2.bn.weight": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.8.m.0.cv2.bn.bias": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_mean": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_var": {
+        "before": [
+          128
+        ],
+        "after": [
+          112
+        ]
+      },
+      "model.8.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          240,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9334608,
+    "gmacs": 10.7383232,
+    "map50": 0.6068670855168488,
+    "map50_95": 0.44233897526489385,
+    "validation_inference_ms": 0.7634369034021802,
+    "step_map_drop": 0.00010226974234628372,
+    "step_compute_saved": 0.00030461912830336625,
+    "total_compute_saved": 0.005624193633460228,
+    "score": 0.3357298765704385,
+    "parent_state_sha256": "61d04ffa6a81031235cb4ad2f3ba5e1890086fb43806158ae18051fa01208dc4"
+  },
+  {
+    "step": 10,
+    "layer": "model.8.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 112,
+    "after_channels": 96,
+    "indices": [
+      98,
+      99,
+      44,
+      29,
+      33,
+      65,
+      19,
+      72,
+      37,
+      39,
+      86,
+      73,
+      71,
+      81,
+      82,
+      97
+    ],
+    "dependencies": [
+      {
+        "layer": "model.8.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          98,
+          99,
+          44,
+          29,
+          33,
+          65,
+          19,
+          72,
+          37,
+          39,
+          86,
+          73,
+          71,
+          81,
+          82,
+          97
+        ]
+      },
+      {
+        "layer": "model.8.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          226,
+          227,
+          172,
+          157,
+          161,
+          193,
+          147,
+          200,
+          165,
+          167,
+          214,
+          201,
+          199,
+          209,
+          210,
+          225
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.8.m.0.cv2.conv.weight": {
+        "before": [
+          112,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          96,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.8.m.0.cv2.bn.weight": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.8.m.0.cv2.bn.bias": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_mean": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_var": {
+        "before": [
+          112
+        ],
+        "after": [
+          96
+        ]
+      },
+      "model.8.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          240,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          224,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9326384,
+    "gmacs": 10.7350336,
+    "map50": 0.6069490317393502,
+    "map50_95": 0.44225257873468116,
+    "validation_inference_ms": 0.7618782988000021,
+    "step_map_drop": 8.639653021269567e-05,
+    "step_compute_saved": 0.00030461912830336625,
+    "total_compute_saved": 0.005928812761763602,
+    "score": 0.28362148724506386,
+    "parent_state_sha256": "47de500b34bdf4a418c2e3155e84fcc913015e7600ebe9609736f2d7edc361b2"
+  },
+  {
+    "step": 11,
+    "layer": "model.8.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 96,
+    "after_channels": 80,
+    "indices": [
+      52,
+      84,
+      18,
+      56,
+      11,
+      3,
+      47,
+      76,
+      41,
+      45,
+      65,
+      19,
+      29,
+      72,
+      43,
+      53
+    ],
+    "dependencies": [
+      {
+        "layer": "model.8.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          52,
+          84,
+          18,
+          56,
+          11,
+          3,
+          47,
+          76,
+          41,
+          45,
+          65,
+          19,
+          29,
+          72,
+          43,
+          53
+        ]
+      },
+      {
+        "layer": "model.8.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          180,
+          212,
+          146,
+          184,
+          139,
+          131,
+          175,
+          204,
+          169,
+          173,
+          193,
+          147,
+          157,
+          200,
+          171,
+          181
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.8.m.0.cv2.conv.weight": {
+        "before": [
+          96,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          80,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.8.m.0.cv2.bn.weight": {
+        "before": [
+          96
+        ],
+        "after": [
+          80
+        ]
+      },
+      "model.8.m.0.cv2.bn.bias": {
+        "before": [
+          96
+        ],
+        "after": [
+          80
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_mean": {
+        "before": [
+          96
+        ],
+        "after": [
+          80
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_var": {
+        "before": [
+          96
+        ],
+        "after": [
+          80
+        ]
+      },
+      "model.8.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          224,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          208,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9318160,
+    "gmacs": 10.731744,
+    "map50": 0.6070000217918627,
+    "map50_95": 0.44241355030850316,
+    "validation_inference_ms": 0.7622549045976483,
+    "step_map_drop": -0.00016097157382199967,
+    "step_compute_saved": 0.0003046191283032017,
+    "total_compute_saved": 0.006233431890066865,
+    "score": -0.5284355408626116,
+    "parent_state_sha256": "09f4251c228001713b6eb1a0f755c15d92be1d47abb45954ff68ee7b165d25a3"
+  },
+  {
+    "step": 12,
+    "layer": "model.6.m.0.m.1.cv1.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 56,
+    "after_channels": 48,
+    "indices": [
+      0,
+      21,
+      45,
+      54,
+      15,
+      51,
+      20,
+      6
+    ],
+    "dependencies": [
+      {
+        "layer": "model.6.m.0.m.1.cv1.conv",
+        "direction": "out",
+        "indices": [
+          0,
+          21,
+          45,
+          54,
+          15,
+          51,
+          20,
+          6
+        ]
+      },
+      {
+        "layer": "model.6.m.0.m.1.cv2.conv",
+        "direction": "in",
+        "indices": [
+          0,
+          21,
+          45,
+          54,
+          15,
+          51,
+          20,
+          6
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.6.m.0.m.1.cv1.conv.weight": {
+        "before": [
+          56,
+          64,
+          3,
+          3
+        ],
+        "after": [
+          48,
+          64,
+          3,
+          3
+        ]
+      },
+      "model.6.m.0.m.1.cv1.bn.weight": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.m.1.cv1.bn.bias": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.m.1.cv1.bn.running_mean": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.m.1.cv1.bn.running_var": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.m.1.cv2.conv.weight": {
+        "before": [
+          64,
+          56,
+          3,
+          3
+        ],
+        "after": [
+          64,
+          48,
+          3,
+          3
+        ]
+      }
+    },
+    "parameters": 9308928,
+    "gmacs": 10.7169728,
+    "map50": 0.6055504357502761,
+    "map50_95": 0.44138006186939527,
+    "validation_inference_ms": 0.7604177034001623,
+    "step_map_drop": 0.001033488439107888,
+    "step_compute_saved": 0.0013678228562725358,
+    "total_compute_saved": 0.007601254746339325,
+    "score": 0.7555718449713985,
+    "parent_state_sha256": "af185f987efa01353191b2168de75241bcc31b3977ac515cc67fea2fd2a146aa"
+  },
+  {
+    "step": 13,
+    "layer": "model.8.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 80,
+    "after_channels": 72,
+    "indices": [
+      30,
+      12,
+      2,
+      3,
+      61,
+      75,
+      39,
+      13
+    ],
+    "dependencies": [
+      {
+        "layer": "model.8.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          30,
+          12,
+          2,
+          3,
+          61,
+          75,
+          39,
+          13
+        ]
+      },
+      {
+        "layer": "model.8.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          158,
+          140,
+          130,
+          131,
+          189,
+          203,
+          167,
+          141
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.8.m.0.cv2.conv.weight": {
+        "before": [
+          80,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          72,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.8.m.0.cv2.bn.weight": {
+        "before": [
+          80
+        ],
+        "after": [
+          72
+        ]
+      },
+      "model.8.m.0.cv2.bn.bias": {
+        "before": [
+          80
+        ],
+        "after": [
+          72
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_mean": {
+        "before": [
+          80
+        ],
+        "after": [
+          72
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_var": {
+        "before": [
+          80
+        ],
+        "after": [
+          72
+        ]
+      },
+      "model.8.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          208,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          200,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9304816,
+    "gmacs": 10.715328,
+    "map50": 0.6056554107501806,
+    "map50_95": 0.4414666686061672,
+    "validation_inference_ms": 0.763308649800456,
+    "step_map_drop": -8.660673677191033e-05,
+    "step_compute_saved": 0.00015230956415176536,
+    "total_compute_saved": 0.007753564310491123,
+    "score": -0.5686231016038693,
+    "parent_state_sha256": "d3d7d3fe8ef216035ffd2765894f547ab62cbda4932debe058684d7acf8ed39c"
+  },
+  {
+    "step": 14,
+    "layer": "model.8.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 72,
+    "after_channels": 64,
+    "indices": [
+      20,
+      68,
+      57,
+      22,
+      38,
+      44,
+      63,
+      39
+    ],
+    "dependencies": [
+      {
+        "layer": "model.8.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          20,
+          68,
+          57,
+          22,
+          38,
+          44,
+          63,
+          39
+        ]
+      },
+      {
+        "layer": "model.8.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          148,
+          196,
+          185,
+          150,
+          166,
+          172,
+          191,
+          167
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.8.m.0.cv2.conv.weight": {
+        "before": [
+          72,
+          256,
+          1,
+          1
+        ],
+        "after": [
+          64,
+          256,
+          1,
+          1
+        ]
+      },
+      "model.8.m.0.cv2.bn.weight": {
+        "before": [
+          72
+        ],
+        "after": [
+          64
+        ]
+      },
+      "model.8.m.0.cv2.bn.bias": {
+        "before": [
+          72
+        ],
+        "after": [
+          64
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_mean": {
+        "before": [
+          72
+        ],
+        "after": [
+          64
+        ]
+      },
+      "model.8.m.0.cv2.bn.running_var": {
+        "before": [
+          72
+        ],
+        "after": [
+          64
+        ]
+      },
+      "model.8.m.0.cv3.conv.weight": {
+        "before": [
+          256,
+          200,
+          1,
+          1
+        ],
+        "after": [
+          256,
+          192,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9300704,
+    "gmacs": 10.7136832,
+    "map50": 0.6055730928810313,
+    "map50_95": 0.4414213305388553,
+    "validation_inference_ms": 0.759753961199749,
+    "step_map_drop": 4.533806731188417e-05,
+    "step_compute_saved": 0.00015230956415160086,
+    "total_compute_saved": 0.0079058738746427,
+    "score": 0.29767052098420466,
+    "parent_state_sha256": "88bb53e7c4f6e85ed19986e8eea4e4728396bc543b21dd67be95f2b09f28d223"
+  },
+  {
+    "step": 15,
+    "layer": "model.6.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 64,
+    "after_channels": 56,
+    "indices": [
+      23,
+      12,
+      34,
+      54,
+      10,
+      62,
+      18,
+      60
+    ],
+    "dependencies": [
+      {
+        "layer": "model.6.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          23,
+          12,
+          34,
+          54,
+          10,
+          62,
+          18,
+          60
+        ]
+      },
+      {
+        "layer": "model.6.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          87,
+          76,
+          98,
+          118,
+          74,
+          126,
+          82,
+          124
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.6.m.0.cv2.conv.weight": {
+        "before": [
+          64,
+          128,
+          1,
+          1
+        ],
+        "after": [
+          56,
+          128,
+          1,
+          1
+        ]
+      },
+      "model.6.m.0.cv2.bn.weight": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.cv2.bn.bias": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.cv2.bn.running_mean": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.cv2.bn.running_var": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.cv3.conv.weight": {
+        "before": [
+          128,
+          128,
+          1,
+          1
+        ],
+        "after": [
+          128,
+          120,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9298640,
+    "gmacs": 10.7103808,
+    "map50": 0.6052323287676643,
+    "map50_95": 0.4411581678769625,
+    "validation_inference_ms": 0.7618873920007899,
+    "step_map_drop": 0.0002631626618928018,
+    "step_compute_saved": 0.0003058044167403782,
+    "total_compute_saved": 0.00821167829138314,
+    "score": 0.8605587345594867,
+    "parent_state_sha256": "7fa313a63d8e5a8e8e9a46587bac55d76c86adda167d10e2c4b95375869f78da"
+  },
+  {
+    "step": 16,
+    "layer": "model.6.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 56,
+    "after_channels": 48,
+    "indices": [
+      26,
+      46,
+      13,
+      40,
+      49,
+      4,
+      54,
+      35
+    ],
+    "dependencies": [
+      {
+        "layer": "model.6.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          26,
+          46,
+          13,
+          40,
+          49,
+          4,
+          54,
+          35
+        ]
+      },
+      {
+        "layer": "model.6.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          90,
+          110,
+          77,
+          104,
+          113,
+          68,
+          118,
+          99
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.6.m.0.cv2.conv.weight": {
+        "before": [
+          56,
+          128,
+          1,
+          1
+        ],
+        "after": [
+          48,
+          128,
+          1,
+          1
+        ]
+      },
+      "model.6.m.0.cv2.bn.weight": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.cv2.bn.bias": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.cv2.bn.running_mean": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.cv2.bn.running_var": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.cv3.conv.weight": {
+        "before": [
+          128,
+          120,
+          1,
+          1
+        ],
+        "after": [
+          128,
+          112,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9296576,
+    "gmacs": 10.7070784,
+    "map50": 0.6052412871452374,
+    "map50_95": 0.44084235172063513,
+    "validation_inference_ms": 0.7608706925973819,
+    "step_map_drop": 0.00031581615632736426,
+    "step_compute_saved": 0.00030580441674021375,
+    "total_compute_saved": 0.008517482708123358,
+    "score": 1.032739028735663,
+    "parent_state_sha256": "6d9d22568120d3ed29bb011d6525c8b5d2917f386b06ab9eee3674043086eeae"
+  },
+  {
+    "step": 17,
+    "layer": "model.6.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 48,
+    "after_channels": 40,
+    "indices": [
+      33,
+      16,
+      6,
+      4,
+      35,
+      42,
+      25,
+      46
+    ],
+    "dependencies": [
+      {
+        "layer": "model.6.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          33,
+          16,
+          6,
+          4,
+          35,
+          42,
+          25,
+          46
+        ]
+      },
+      {
+        "layer": "model.6.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          97,
+          80,
+          70,
+          68,
+          99,
+          106,
+          89,
+          110
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.6.m.0.cv2.conv.weight": {
+        "before": [
+          48,
+          128,
+          1,
+          1
+        ],
+        "after": [
+          40,
+          128,
+          1,
+          1
+        ]
+      },
+      "model.6.m.0.cv2.bn.weight": {
+        "before": [
+          48
+        ],
+        "after": [
+          40
+        ]
+      },
+      "model.6.m.0.cv2.bn.bias": {
+        "before": [
+          48
+        ],
+        "after": [
+          40
+        ]
+      },
+      "model.6.m.0.cv2.bn.running_mean": {
+        "before": [
+          48
+        ],
+        "after": [
+          40
+        ]
+      },
+      "model.6.m.0.cv2.bn.running_var": {
+        "before": [
+          48
+        ],
+        "after": [
+          40
+        ]
+      },
+      "model.6.m.0.cv3.conv.weight": {
+        "before": [
+          128,
+          112,
+          1,
+          1
+        ],
+        "after": [
+          128,
+          104,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9294512,
+    "gmacs": 10.703776,
+    "map50": 0.6055189955900557,
+    "map50_95": 0.44087676937801434,
+    "validation_inference_ms": 0.7612800123984925,
+    "step_map_drop": -3.441765737921543e-05,
+    "step_compute_saved": 0.0003058044167403782,
+    "total_compute_saved": 0.008823287124863688,
+    "score": -0.11254794075925766,
+    "parent_state_sha256": "fd78ff4c0dc95d649440de837e0c101b256168907cf44b20aa5a7bbf0bdd32b3"
+  },
+  {
+    "step": 18,
+    "layer": "model.6.m.0.m.0.cv1.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 64,
+    "after_channels": 56,
+    "indices": [
+      57,
+      61,
+      4,
+      2,
+      20,
+      22,
+      27,
+      38
+    ],
+    "dependencies": [
+      {
+        "layer": "model.6.m.0.m.0.cv1.conv",
+        "direction": "out",
+        "indices": [
+          57,
+          61,
+          4,
+          2,
+          20,
+          22,
+          27,
+          38
+        ]
+      },
+      {
+        "layer": "model.6.m.0.m.0.cv2.conv",
+        "direction": "in",
+        "indices": [
+          57,
+          61,
+          4,
+          2,
+          20,
+          22,
+          27,
+          38
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.6.m.0.m.0.cv1.conv.weight": {
+        "before": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "after": [
+          56,
+          64,
+          3,
+          3
+        ]
+      },
+      "model.6.m.0.m.0.cv1.bn.weight": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.m.0.cv1.bn.bias": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.m.0.cv1.bn.running_mean": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.m.0.cv1.bn.running_var": {
+        "before": [
+          64
+        ],
+        "after": [
+          56
+        ]
+      },
+      "model.6.m.0.m.0.cv2.conv.weight": {
+        "before": [
+          64,
+          64,
+          3,
+          3
+        ],
+        "after": [
+          64,
+          56,
+          3,
+          3
+        ]
+      }
+    },
+    "parameters": 9285280,
+    "gmacs": 10.6890048,
+    "map50": 0.6038354804530034,
+    "map50_95": 0.43936825405575575,
+    "validation_inference_ms": 0.7596565929998178,
+    "step_map_drop": 0.0015085153222585967,
+    "step_compute_saved": 0.0013678228562725358,
+    "total_compute_saved": 0.01019110998113626,
+    "score": 1.1028586891503356,
+    "parent_state_sha256": "eb821d145ebedbb72c0b836846ebe8ebd0681b8b60e1261ad60ad7a0ebdd288e"
+  },
+  {
+    "step": 19,
+    "layer": "model.6.m.0.m.0.cv1.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 56,
+    "after_channels": 48,
+    "indices": [
+      45,
+      18,
+      52,
+      51,
+      37,
+      40,
+      0,
+      50
+    ],
+    "dependencies": [
+      {
+        "layer": "model.6.m.0.m.0.cv1.conv",
+        "direction": "out",
+        "indices": [
+          45,
+          18,
+          52,
+          51,
+          37,
+          40,
+          0,
+          50
+        ]
+      },
+      {
+        "layer": "model.6.m.0.m.0.cv2.conv",
+        "direction": "in",
+        "indices": [
+          45,
+          18,
+          52,
+          51,
+          37,
+          40,
+          0,
+          50
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.6.m.0.m.0.cv1.conv.weight": {
+        "before": [
+          56,
+          64,
+          3,
+          3
+        ],
+        "after": [
+          48,
+          64,
+          3,
+          3
+        ]
+      },
+      "model.6.m.0.m.0.cv1.bn.weight": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.m.0.cv1.bn.bias": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.m.0.cv1.bn.running_mean": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.m.0.cv1.bn.running_var": {
+        "before": [
+          56
+        ],
+        "after": [
+          48
+        ]
+      },
+      "model.6.m.0.m.0.cv2.conv.weight": {
+        "before": [
+          64,
+          56,
+          3,
+          3
+        ],
+        "after": [
+          64,
+          48,
+          3,
+          3
+        ]
+      }
+    },
+    "parameters": 9276048,
+    "gmacs": 10.6742336,
+    "map50": 0.6014760821656934,
+    "map50_95": 0.4378100852191724,
+    "validation_inference_ms": 0.7609523757986608,
+    "step_map_drop": 0.001558168836583329,
+    "step_compute_saved": 0.0013678228562723715,
+    "total_compute_saved": 0.011558932837408609,
+    "score": 1.1391598184210006,
+    "parent_state_sha256": "d917f710234aa4e89f3ff6306f99b185ed6a228a837b2cd8e794b63ab23201f4"
+  },
+  {
+    "step": 20,
+    "layer": "model.6.m.0.cv2.conv",
+    "status": "ok",
+    "reason": "",
+    "before_channels": 40,
+    "after_channels": 32,
+    "indices": [
+      38,
+      16,
+      13,
+      32,
+      11,
+      0,
+      31,
+      14
+    ],
+    "dependencies": [
+      {
+        "layer": "model.6.m.0.cv2.conv",
+        "direction": "out",
+        "indices": [
+          38,
+          16,
+          13,
+          32,
+          11,
+          0,
+          31,
+          14
+        ]
+      },
+      {
+        "layer": "model.6.m.0.cv3.conv",
+        "direction": "in",
+        "indices": [
+          102,
+          80,
+          77,
+          96,
+          75,
+          64,
+          95,
+          78
+        ]
+      }
+    ],
+    "changed_tensors": {
+      "model.6.m.0.cv2.conv.weight": {
+        "before": [
+          40,
+          128,
+          1,
+          1
+        ],
+        "after": [
+          32,
+          128,
+          1,
+          1
+        ]
+      },
+      "model.6.m.0.cv2.bn.weight": {
+        "before": [
+          40
+        ],
+        "after": [
+          32
+        ]
+      },
+      "model.6.m.0.cv2.bn.bias": {
+        "before": [
+          40
+        ],
+        "after": [
+          32
+        ]
+      },
+      "model.6.m.0.cv2.bn.running_mean": {
+        "before": [
+          40
+        ],
+        "after": [
+          32
+        ]
+      },
+      "model.6.m.0.cv2.bn.running_var": {
+        "before": [
+          40
+        ],
+        "after": [
+          32
+        ]
+      },
+      "model.6.m.0.cv3.conv.weight": {
+        "before": [
+          128,
+          104,
+          1,
+          1
+        ],
+        "after": [
+          128,
+          96,
+          1,
+          1
+        ]
+      }
+    },
+    "parameters": 9273984,
+    "gmacs": 10.6709312,
+    "map50": 0.6010493125841287,
+    "map50_95": 0.4373722098236002,
+    "validation_inference_ms": 0.7596943331984221,
+    "step_map_drop": 0.0004378753955722181,
+    "step_compute_saved": 0.0003058044167403782,
+    "total_compute_saved": 0.011864737254148938,
+    "score": 1.4318805471798188,
+    "parent_state_sha256": "f88d27198bb24d9192c77bb7036b72426ce6aaff8f3fa903972ba10e480cc386"
+  }
+]
