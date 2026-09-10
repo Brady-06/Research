@@ -1,76 +1,0 @@
-RUN_DIR C:\Users\22565\OneDrive\Desktop\YOLO\runs\distill\smoke_experiment12_structure
-[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
-[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% ━━━───────── 1/4 1.6it/s 0.2s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.3it/s 0.3s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 3/4 4.3it/s 0.5s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 7.0it/s 0.6s
-[K[34m[1mtrain: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\train.cache... 100 images, 2 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 102/102 71.3Mit/s 0.0s
-[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 18.2Mit/s 0.0s
-[K        1/1      1.23G      1.033      1.327       1.04         67        640: 0% ──────────── 0/13  5.3s[K        1/1      1.26G      1.076      1.168       1.09         52        640: 7% ╸─────────── 1/13 2.6it/s 5.4s<4.6s[K        1/1      1.26G      1.241      1.338      1.148         93        640: 15% ━╸────────── 2/13 4.4it/s 5.6s<2.5s[K        1/1      1.26G      1.245      1.359      1.135         65        640: 23% ━━╸───────── 3/13 5.5it/s 5.7s<1.8s[K        1/1      1.26G      1.171      1.345      1.122         23        640: 30% ━━━╸──────── 4/13 6.4it/s 5.8s<1.4s[K        1/1      1.26G        1.2      1.354      1.147         77        640: 46% ━━━━━╸────── 6/13 7.7it/s 6.0s<0.9s[K        1/1      1.26G      1.168      1.336       1.15         30        640: 53% ━━━━━━────── 7/13 7.8it/s 6.1s<0.8s[K        1/1      1.26G      1.131      1.248      1.153         40        640: 69% ━━━━━━━━──── 9/13 9.0it/s 6.3s<0.4s[K        1/1      1.26G      1.115      1.248      1.149         68        640: 76% ━━━━━━━━━─── 10/13 9.3it/s 6.4s<0.3s[K        1/1      1.26G      1.123      1.257      1.145         76        640: 84% ━━━━━━━━━━── 11/13 9.3it/s 6.5s<0.2s[K        1/1      1.26G      1.138      1.276      1.146         55        640: 92% ━━━━━━━━━━━─ 12/13 6.6it/s 11.1s<0.2s[K        1/1      1.26G      1.138      1.276      1.146         55        640: 100% ━━━━━━━━━━━━ 13/13 1.2it/s 11.1s
-[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 7.2s/it 2.2s<7.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 2.2s/it 4.3s
-[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 10.9Mit/s 0.0s
-[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.0it/s 0.2s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 3/4 4.7it/s 0.3s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 11.1it/s 0.4s
-Using cache found in C:\Users\22565/.cache\torch\hub\facebookresearch_dinov2_main
-C:\Users\22565/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\swiglu_ffn.py:51: UserWarning: xFormers is not available (SwiGLU)
-  warnings.warn("xFormers is not available (SwiGLU)")
-C:\Users\22565/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\attention.py:33: UserWarning: xFormers is not available (Attention)
-  warnings.warn("xFormers is not available (Attention)")
-C:\Users\22565/.cache\torch\hub\facebookresearch_dinov2_main\dinov2\layers\block.py:40: UserWarning: xFormers is not available (Block)
-  warnings.warn("xFormers is not available (Block)")
-[K[34m[1mtrain: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\train.cache... 100 images, 2 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 102/102 38.9Mit/s 0.0s
-[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 21.8Mit/s 0.0s
-[K        1/1      1.77G      1.033      1.327       1.04      1.001         67        640: 0% ──────────── 0/13  0.3s[K        1/1      1.78G      1.076      1.168       1.09      1.001         52        640: 7% ╸─────────── 1/13 1.7it/s 0.5s<7.2s[K        1/1      1.78G      1.241      1.338      1.148     0.9975         93        640: 15% ━╸────────── 2/13 2.7it/s 0.7s<4.1s[K        1/1      1.78G      1.245      1.359      1.135     0.9972         65        640: 23% ━━╸───────── 3/13 3.4it/s 0.9s<2.9s[K        1/1      1.78G      1.171      1.345      1.122     0.9976         23        640: 30% ━━━╸──────── 4/13 4.4it/s 1.0s<2.1s[K        1/1      1.78G      1.145      1.284      1.121     0.9975         92        640: 38% ━━━━╸─────── 5/13 4.9it/s 1.2s<1.6s[K        1/1      1.78G        1.2      1.354      1.147     0.9956         77        640: 46% ━━━━━╸────── 6/13 5.1it/s 1.4s<1.4s[K        1/1      1.78G      1.168      1.336       1.15     0.9957         30        640: 53% ━━━━━━────── 7/13 5.3it/s 1.5s<1.1s[K        1/1      1.78G      1.133      1.271      1.139     0.9954         49        640: 61% ━━━━━━━───── 8/13 5.4it/s 1.7s<0.9s[K        1/1      1.78G      1.131      1.248      1.153     0.9966         40        640: 69% ━━━━━━━━──── 9/13 5.6it/s 1.9s<0.7s[K        1/1      1.78G      1.115      1.248      1.149     0.9966         68        640: 76% ━━━━━━━━━─── 10/13 5.9it/s 2.0s<0.5s[K        1/1      1.78G      1.123      1.257      1.145     0.9957         76        640: 84% ━━━━━━━━━━── 11/13 6.0it/s 2.2s<0.3s[K        1/1      1.78G      1.138      1.276      1.146     0.9957         55        640: 92% ━━━━━━━━━━━─ 12/13 6.3it/s 2.3s<0.2s[K        1/1      1.78G      1.138      1.276      1.146     0.9957         55        640: 100% ━━━━━━━━━━━━ 13/13 5.5it/s 2.3s
-[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 1/2 2.5it/s 0.1s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 2/2 6.2it/s 0.3s
-[K[34m[1mval: [0mScanning C:\Users\22565\OneDrive\Desktop\YOLO\datasets\coco128_split\labels\val.cache... 26 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 26/26 15.6Mit/s 0.0s
-[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 50% ━━━━━━────── 2/4 3.2it/s 0.2s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 3/4 4.5it/s 0.3s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 4/4 11.3it/s 0.4s
-{
-  "started_at": "2026-09-10T18:09:54.676516+08:00",
-  "status": "complete",
-  "elapsed_seconds": 35.22001770000497,
-  "configuration": {
-    "student": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\greedy\\weights\\best.pt",
-    "data": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\configs\\coco128_split.yaml",
-    "teacher": "dinov2_vits14",
-    "feature": "YOLO Detect P4 (stride 16)",
-    "epochs": 1,
-    "batch": 8,
-    "imgsz": 640,
-    "optimizer": "AdamW",
-    "lr0": 0.0001,
-    "weight": 0.5,
-    "warmup_epochs": 2,
-    "dino_size": 644,
-    "seed": 42,
-    "device": "0",
-    "control_best": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\distill\\smoke_experiment12_structure\\finetune\\control\\weights\\best.pt",
-    "distill_best": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\distill\\smoke_experiment12_structure\\finetune\\distill\\weights\\best.pt",
-    "resume_weights": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\distill\\smoke_experiment12_structure\\finetune\\distill\\weights\\best_training_wrapper.pt"
-  },
-  "results": {
-    "source": {
-      "map50": 0.7156305546062125,
-      "map50_95": 0.5962410378297743,
-      "inference_ms": 10.4436269231463
-    },
-    "control": {
-      "map50": 0.7156305546062125,
-      "map50_95": 0.5962410378297743,
-      "inference_ms": 5.337803845087854
-    },
-    "distill": {
-      "map50": 0.7156305546062125,
-      "map50_95": 0.5962410378297743,
-      "inference_ms": 3.9849730769324543
-    }
-  },
-  "sources": {
-    "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\greedy\\weights\\best.pt": "90c14c0f950b130f736a9062e7e383b5678a184a944febfa03c83eb6d58436eb",
-    "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\configs\\coco128_split.yaml": "86b2471cd5bd126688349c865b3b57ea92bde429ce1d525eb55efe7aa531f929",
-    "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\scripts\\distill_dinov2_coco128.py": "febd9b8fbf5e09fe8dd0cf34a1c65b9a5ff306f00306a72d8c97b4c187efed26"
-  },
-  "environment": {
-    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
-    "platform": "Windows-11-10.0.26200-SP0",
-    "torch": "2.11.0+cu128",
-    "ultralytics": "8.4.142",
-    "gpu": "NVIDIA GeForce RTX 5060 Ti"
-  }
-}
-REPORT C:\Users\22565\OneDrive\Desktop\YOLO\reports\experiment12_dinov2_distillation_coco128.md

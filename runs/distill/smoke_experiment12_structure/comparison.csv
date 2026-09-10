@@ -1,4 +1,0 @@
-﻿label,map50,map50_95,inference_ms,weights
-source,0.7156305546062125,0.5962410378297743,10.4436269231463,C:\Users\22565\OneDrive\Desktop\YOLO\runs\prune\experiment05_greedy\20260908_161152\finetune\greedy\weights\best.pt
-control,0.7156305546062125,0.5962410378297743,5.337803845087854,C:\Users\22565\OneDrive\Desktop\YOLO\runs\distill\smoke_experiment12_structure\finetune\control\weights\best.pt
-distill,0.7156305546062125,0.5962410378297743,3.9849730769324543,C:\Users\22565\OneDrive\Desktop\YOLO\runs\distill\smoke_experiment12_structure\finetune\distill\weights\best.pt

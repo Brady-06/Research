@@ -1,3 +1,14 @@
-/.venv
-/.vscode
-/configs
+/.venv/
+/.vscode/
+/.claude/
+
+# Python-generated caches
+**/__pycache__/
+*.py[cod]
+
+# Jupyter-generated checkpoints
+**/.ipynb_checkpoints/
+
+# Disposable Ultralytics validation and distillation smoke outputs
+/runs/detect/
+/runs/distill/smoke*/
