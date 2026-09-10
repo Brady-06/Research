@@ -1,0 +1,83 @@
+{
+  "started_at": "2026-09-10T18:32:07+08:00",
+  "status": "complete",
+  "elapsed_seconds": 168.57886540000618,
+  "configuration": {
+    "student": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\greedy\\weights\\best.pt",
+    "data": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\configs\\coco128_split.yaml",
+    "teacher": "dinov2_vits14",
+    "feature": "DINO blocks 4/8/12 -> YOLO P3/P4/P5; level weights 0.25/0.50/0.25",
+    "multiscale": true,
+    "dino_block_indices_zero_based": [
+      3,
+      7,
+      11
+    ],
+    "pyramid_weights": [
+      0.25,
+      0.5,
+      0.25
+    ],
+    "epochs": 30,
+    "batch": 8,
+    "imgsz": 640,
+    "optimizer": "AdamW",
+    "lr0": 0.0001,
+    "weight": 0.5,
+    "warmup_epochs": 2,
+    "dino_size": 644,
+    "seed": 42,
+    "device": "0",
+    "control_best": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\distill\\experiment13_dinov2_multiscale_coco128\\20260910_183207\\finetune\\control\\weights\\best.pt",
+    "distill_best": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\distill\\experiment13_dinov2_multiscale_coco128\\20260910_183207\\finetune\\distill\\weights\\best.pt",
+    "training_wrapper": "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\distill\\experiment13_dinov2_multiscale_coco128\\20260910_183207\\finetune\\distill\\weights\\best_training_wrapper.pt"
+  },
+  "results": {
+    "source": {
+      "map50": 0.7156305546062125,
+      "map50_95": 0.5962410378297743,
+      "inference_ms": 10.385976923526659
+    },
+    "control": {
+      "map50": 0.7156305546062125,
+      "map50_95": 0.5962410378297743,
+      "inference_ms": 4.498680768637524
+    },
+    "distill": {
+      "map50": 0.7156305546062125,
+      "map50_95": 0.5962410378297743,
+      "inference_ms": 4.943792308600118
+    }
+  },
+  "last_results": {
+    "control": {
+      "map50": 0.6358867127419152,
+      "map50_95": 0.4828381844522434,
+      "inference_ms": 11.546303846653945
+    },
+    "distill": {
+      "map50": 0.6248046984925566,
+      "map50_95": 0.49565291810977896,
+      "inference_ms": 3.642138461985339
+    }
+  },
+  "verification": {
+    "best_common_tensors": 499,
+    "best_changed_tensors_vs_source": 0,
+    "last_changed_tensors_vs_source": 90,
+    "deployable_weights_finite": true,
+    "deployable_weights_contain_teacher": false
+  },
+  "sources": {
+    "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\runs\\prune\\experiment05_greedy\\20260908_161152\\finetune\\greedy\\weights\\best.pt": "90c14c0f950b130f736a9062e7e383b5678a184a944febfa03c83eb6d58436eb",
+    "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\configs\\coco128_split.yaml": "86b2471cd5bd126688349c865b3b57ea92bde429ce1d525eb55efe7aa531f929",
+    "C:\\Users\\22565\\OneDrive\\Desktop\\YOLO\\scripts\\distill_dinov2_coco128.py": "1f8037890ad21ff57957829272bd167ada7d5d785ac516a5cf25e49220043582"
+  },
+  "environment": {
+    "python": "3.13.14 (tags/v3.13.14:fd17997, Jun 10 2026, 13:03:48) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.11.0+cu128",
+    "ultralytics": "8.4.142",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti"
+  }
+}
